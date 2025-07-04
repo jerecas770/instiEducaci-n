@@ -1,2 +1,36 @@
 # instiEducaci-n
-es para un trabajo que nos mando el profe galo 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+    <main>
+    <header>
+        <h1>instiEducación</h1>
+        <nav>
+            <a href="index.html">home</a>
+            <a href="materia1.html">materia1</a>
+            <a href="materia2.html">materia2</a>
+            <a href="">contacto</a>
+        </nav>
+    </header>   
+</main>
+    <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>GITHUB</h3>
+        <p>Jeremías</p>
+      </div>
+      <div class="footer-section">
+<h3>&nbsp;</h3> <!-- espacio en blanco para mantener alineación -->
+        <p>Nacho</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>alo 
