@@ -1,35 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="syles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InstiEducación</title>
+  <link rel="stylesheet" href="syles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-    <header>
-        <h1>instiEducación</h1>
-        <nav>
-            <a href="index.html">home</a>
-            <a href="materia1.html">materia1</a>
-            <a href="materia2.html">materia2</a>
-            <a href="">contacto</a>
-        </nav>
-    </header>   
-</main>
-    <footer>
-    <div class="footer-container">
-      <div class="footer-section">
-        <h3>GITHUB</h3>
-        <p>Jeremías</p>
-      </div>
-      <div class="footer-section">
-<h3>&nbsp;</h3> <!-- espacio en blanco para mantener alineación -->
-        <p>Nacho</p>
-      </div>
+
+  <header>
+    <h1>InstiEducación</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="materia1.html">Materia 1</a>
+      <a href="materia2.html">Materia 2</a>
+      <a href="#github">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h2>InstiEducación</h2>
+    <p>Tu plataforma educativa para un aprendizaje efectivo y dinámico</p>
+    <button onclick="location.reload()">Información</button>
+  </section>
+
+  <section class="info-section">
+    <div class="info-box">
+      <p>
+        Bienvenidos a InstiEducación, una plataforma diseñada para facilitar el aprendizaje en diversas materias académicas. Nuestro objetivo es proporcionar recursos educativos de alta calidad que permitan a los estudiantes desarrollar sus habilidades y conocimientos de manera efectiva.
+        <br><br>
+        Contamos con un equipo de profesionales dedicados a la creación de contenido educativo que se adapta a diferentes estilos de aprendizaje. Creemos en la educación como herramienta transformadora y trabajamos para hacerla accesible a todos.
+      </p>
+    </div>
+    <div class="info-box">
+      <p>
+        InstiEducación ofrece cursos en diversas áreas del conocimiento, desde ciencias exactas hasta humanidades. Cada materia está estructurada de manera progresiva, permitiendo a los estudiantes avanzar a su propio ritmo.
+        <br><br>
+        Nuestras metodologías de enseñanza combinan teoría y práctica, con ejercicios interactivos, evaluaciones periódicas y retroalimentación constante. Además, fomentamos el aprendizaje colaborativo a través de foros de discusión y proyectos grupales.
+      </p>
+    </div>
+  </section>
+
+  <footer id="github">
+    <h3><i class="fab fa-github"></i> GitHub</h3>
+    <div class="github-links">
+      <a href="https://github.com/jerecas770" target="_blank">Jeremías</a>
+      <a href="https://github.com/" target="_blank">Nacho</a>
+    </div>
+    <div class="copyright">
+      © 2025 InstiEducación. Todos los derechos reservados.
     </div>
   </footer>
+
 
 </body>
 </html>
