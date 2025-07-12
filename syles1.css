@@ -76,15 +76,28 @@ nav a {
 }
 
 footer {
-  background: #2a4365;
+  background-color: #2b4a75;
   color: white;
   text-align: center;
-  padding: 2rem 1rem 1rem;
-  margin-top: 2rem;
+  padding: 30px 20px 10px;
+  margin-top: 60px;
 }
 
-footer strong {
-  display: block;
-  margin-top: 0.5rem;
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.github-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.github-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
