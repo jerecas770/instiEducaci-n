@@ -1,101 +1,3711 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documentos Comerciales</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>InstiEducación - HTML</h1>
-    <nav>
-      <a href="index.html">Volver al inicio</a>
-    </nav>
-  </header>
 
-  <main>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apuntes de HTML y CSS</title>
-    <link rel="stylesheet" href="estilos.css">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstiEducación · HTML</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header>
-        <h1>Materia 1: HTML</h1>
+        <h1>HTML (HyperText Markup Language)</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="materia2.html">CSS</a>
+        </nav>
     </header>
 
-    <section>
-        <h2>¿Qué es HTML?</h2>
-        <p>HTML (HyperText Markup Language) es el lenguaje que se utiliza para estructurar una página web. Se escribe mediante etiquetas que indican al navegador cómo mostrar el contenido.</p>
-        <p>Ejemplo básico de código HTML:</p>
-        <pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="es"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Mi página web&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;Hola Mundo&lt;/h1&gt;
-    &lt;p&gt;Este es un párrafo de ejemplo.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-        </pre>
-    </section>
+    <main>
 
-    <section>
-        <h2>Etiquetas Comunes</h2>
-        <ul>
-            <li><strong>Encabezados:</strong> &lt;h1&gt; a &lt;h6&gt;</li>
-            <li><strong>Párrafos:</strong> &lt;p&gt;</li>
-            <li><strong>Enlaces:</strong> &lt;a href=""&gt;Texto&lt;/a&gt;</li>
-            <li><strong>Imágenes:</strong> &lt;img src="" alt=""&gt;</li>
-            <li><strong>Listas:</strong> &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</li>
-            <li><strong>Comentarios:</strong> &lt;!-- Comentario --&gt;</li>
-        </ul>
-    </section>
+        <head>
+            <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+            <style type="text/css">
+                @import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLa_DziUyathawBQBNSDnCLMJbpxNowYs0kASrTKpMJA70D-Tn3q9i22VTsfaSDUpPg);
 
-    <section>
-        <h2>Formularios</h2>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br>
+                ol {
+                    margin: 0;
+                    padding: 0
+                }
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
+                table td,
+                table th {
+                    padding: 0
+                }
 
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+                .c10 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 273.7pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
 
-    <section>
-        <h2>Tablas</h2>
-        <table border="1">
-            <caption>Ejemplo de tabla</caption>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Teléfono</th>
-            </tr>
-            <tr>
-                <td>María</td>
-                <td>Gomez</td>
-                <td>42242424</td>
-            </tr>
-            <tr>
-                <td>Ruben</td>
-                <td>Sanchez</td>
-                <td>42525252</td>
-            </tr>
-        </table>
-    </section>
-  </main>
+                .c27 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 108.1pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
 
-  <footer>
-    <p>© 2025 InstiEducación</p>
-  </footer>
+                .c222 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 254pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
+
+                .c39 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 547.4pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
+
+                .c63 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 108pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
+
+                .c182 {
+                    border-right-style: solid;
+                    padding: 5pt 5pt 5pt 5pt;
+                    border-bottom-color: #000000;
+                    border-top-width: 1pt;
+                    border-right-width: 1pt;
+                    border-left-color: #000000;
+                    vertical-align: top;
+                    border-right-color: #000000;
+                    border-left-width: 1pt;
+                    border-top-style: solid;
+                    border-left-style: solid;
+                    border-bottom-width: 1pt;
+                    width: 297.2pt;
+                    border-top-color: #000000;
+                    border-bottom-style: solid
+                }
+
+                .c29 {
+                    -webkit-text-decoration-skip: none;
+                    color: #0000ff;
+                    font-weight: 400;
+                    text-decoration: underline;
+                    vertical-align: baseline;
+                    text-decoration-skip-ink: none;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c111 {
+                    background-color: #ffffff;
+                    color: #6a9955;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 10.6pt;
+                    font-family: "Consolas";
+                    font-style: normal
+                }
+
+                .c217 {
+                    margin-left: 6.3pt;
+                    padding-top: 9.2pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 5.3pt
+                }
+
+                .c145 {
+                    margin-left: 7.7pt;
+                    padding-top: 13.5pt;
+                    text-indent: -1.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9327591061592102;
+                    text-align: left;
+                    margin-right: 45.1pt
+                }
+
+                .c285 {
+                    color: #00b0f0;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c15 {
+                    color: #00b0f0;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c195 {
+                    margin-left: 6.3pt;
+                    padding-top: 14pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 33.1pt
+                }
+
+                .c279 {
+                    margin-left: 6.6pt;
+                    padding-top: 9pt;
+                    text-indent: -0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c143 {
+                    margin-left: 6.5pt;
+                    padding-top: 0.5pt;
+                    text-indent: -0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115000009536743;
+                    text-align: left;
+                    margin-right: 60.7pt
+                }
+
+                .c155 {
+                    margin-left: 6.3pt;
+                    padding-top: 8pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0145890712738037;
+                    text-align: left;
+                    margin-right: 6pt
+                }
+
+                .c259 {
+                    margin-left: 6.4pt;
+                    padding-top: 33.4pt;
+                    text-indent: -0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115031003952026;
+                    text-align: left;
+                    margin-right: 42.4pt
+                }
+
+                .c50 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0050324201583862;
+                    text-align: left;
+                    margin-right: 13.4pt
+                }
+
+                .c220 {
+                    margin-left: 6pt;
+                    padding-top: 9.2pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c81 {
+                    margin-left: 6.2pt;
+                    padding-top: 0.5pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.011500358581543;
+                    text-align: left;
+                    margin-right: 18.2pt
+                }
+
+                .c80 {
+                    margin-left: 6.3pt;
+                    padding-top: 0pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0155997276306152;
+                    text-align: left;
+                    margin-right: 5pt
+                }
+
+                .c93 {
+                    margin-left: 6pt;
+                    padding-top: 9.2pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 28.2pt
+                }
+
+                .c171 {
+                    margin-left: 5.9pt;
+                    padding-top: 0pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0083725452423096;
+                    text-align: left;
+                    margin-right: 5.4pt
+                }
+
+                .c84 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0148444175720215;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c53 {
+                    margin-left: 6pt;
+                    padding-top: 8.8pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140870809555054;
+                    text-align: left;
+                    margin-right: 2.6pt
+                }
+
+                .c157 {
+                    margin-left: 6.6pt;
+                    padding-top: 0pt;
+                    text-indent: -0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 18.6pt
+                }
+
+                .c261 {
+                    margin-left: 6.5pt;
+                    padding-top: 0.6pt;
+                    text-indent: -0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0152220726013184;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c213 {
+                    margin-left: 6.3pt;
+                    padding-top: 4.2pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115025043487549;
+                    text-align: left;
+                    margin-right: 29.6pt
+                }
+
+                .c42 {
+                    margin-left: 6.2pt;
+                    padding-top: 6.6pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0143879652023315;
+                    text-align: left;
+                    margin-right: 7.7pt
+                }
+
+                .c193 {
+                    margin-left: 6.3pt;
+                    padding-top: 0pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1589545011520386;
+                    text-align: left;
+                    margin-right: 3.5pt
+                }
+
+                .c174 {
+                    margin-left: 6.5pt;
+                    padding-top: 13.8pt;
+                    text-indent: -0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0155946016311646;
+                    text-align: left;
+                    margin-right: 2.6pt
+                }
+
+                .c198 {
+                    margin-left: 6.6pt;
+                    padding-top: 12.6pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1770657300949097;
+                    text-align: left;
+                    margin-right: 3.3pt
+                }
+
+                .c1 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 10.1pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c236 {
+                    margin-left: 6.3pt;
+                    padding-top: 13.9pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140864849090576;
+                    text-align: left;
+                    margin-right: 3.9pt
+                }
+
+                .c85 {
+                    margin-left: 6.5pt;
+                    padding-top: 0.6pt;
+                    text-indent: -0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0114974975585938;
+                    text-align: left;
+                    margin-right: 24.8pt
+                }
+
+                .c22 {
+                    color: #76923c;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 13.9pt;
+                    font-family: "Century Gothic";
+                    font-style: normal
+                }
+
+                .c223 {
+                    margin-left: 5.8pt;
+                    padding-top: 0pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 33.8pt
+                }
+
+                .c243 {
+                    margin-left: 6.2pt;
+                    padding-top: 7.8pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0146539211273193;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c158 {
+                    margin-left: 6pt;
+                    padding-top: 8pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140875577926636;
+                    text-align: left;
+                    margin-right: 8.5pt
+                }
+
+                .c203 {
+                    margin-left: 6.3pt;
+                    padding-top: 13.9pt;
+                    text-indent: -0.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140115022659302;
+                    text-align: left;
+                    margin-right: 4.9pt
+                }
+
+                .c82 {
+                    margin-left: 6.6pt;
+                    padding-top: 7.8pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c110 {
+                    margin-left: 6.2pt;
+                    padding-top: 0.5pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.011499047279358;
+                    text-align: left;
+                    margin-right: 25.1pt
+                }
+
+                .c165 {
+                    margin-left: 6pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9916649460792542;
+                    text-align: left;
+                    margin-right: 43.6pt
+                }
+
+                .c206 {
+                    margin-left: 6.2pt;
+                    padding-top: 0pt;
+                    text-indent: -0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9974889159202576;
+                    text-align: left;
+                    margin-right: 37.1pt
+                }
+
+                .c86 {
+                    margin-left: 6.6pt;
+                    padding-top: 7.8pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c178 {
+                    margin-left: 6pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0155946016311646;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c144 {
+                    color: #7030a0;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c127 {
+                    margin-left: 6.2pt;
+                    padding-top: 13.9pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 6.4pt
+                }
+
+                .c17 {
+                    margin-left: 6pt;
+                    padding-top: 2.4pt;
+                    text-indent: 0.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1604650020599365;
+                    text-align: left;
+                    margin-right: 15.3pt
+                }
+
+                .c166 {
+                    color: #ffc000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c141 {
+                    margin-left: 6pt;
+                    padding-top: 10.2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 50.4pt
+                }
+
+                .c139 {
+                    margin-left: 6pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c13 {
+                    margin-left: 6.2pt;
+                    padding-top: 9pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0155971050262451;
+                    text-align: left;
+                    margin-right: 2.6pt
+                }
+
+                .c57 {
+                    margin-left: 6.3pt;
+                    padding-top: 10.8pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1770647764205933;
+                    text-align: left;
+                    margin-right: 3.5pt
+                }
+
+                .c132 {
+                    margin-left: 6.3pt;
+                    padding-top: 4.2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115031003952026;
+                    text-align: left;
+                    margin-right: 46.8pt
+                }
+
+                .c282 {
+                    margin-left: 6.1pt;
+                    padding-top: 19.4pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 2.2102272510528564;
+                    text-align: left;
+                    margin-right: 28.4pt
+                }
+
+                .c226 {
+                    margin-left: 6.3pt;
+                    padding-top: 13.9pt;
+                    text-indent: 0.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: justify;
+                    margin-right: 2.8pt
+                }
+
+                .c68 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.4pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140864849090576;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c191 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.7pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1770647764205933;
+                    text-align: left;
+                    margin-right: 27.4pt
+                }
+
+                .c263 {
+                    margin-left: 6.3pt;
+                    padding-top: 29.6pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1589545011520386;
+                    text-align: left;
+                    margin-right: 10.1pt
+                }
+
+                .c177 {
+                    color: #00b050;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c97 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 9.1pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c65 {
+                    margin-left: 6.5pt;
+                    padding-top: 6.8pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9959798455238342;
+                    text-align: left;
+                    margin-right: 29.7pt
+                }
+
+                .c4 {
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c101 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0139795541763306;
+                    text-align: left;
+                    margin-right: 6.2pt
+                }
+
+                .c153 {
+                    margin-left: 6pt;
+                    padding-top: 4.2pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115004777908325;
+                    text-align: left;
+                    margin-right: 23.2pt
+                }
+
+                .c102 {
+                    color: #17365d;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c225 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c232 {
+                    color: #4f6228;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 13.9pt;
+                    font-family: "Arial";
+                    font-style: normal
+                }
+
+                .c214 {
+                    margin-left: 6.3pt;
+                    padding-top: 12.6pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.168769359588623;
+                    text-align: left;
+                    margin-right: 14.1pt
+                }
+
+                .c240 {
+                    margin-left: 6pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c246 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0149922370910645;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c231 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.016351342201233;
+                    text-align: left;
+                    margin-right: 38.1pt
+                }
+
+                .c175 {
+                    margin-left: 6.3pt;
+                    padding-top: 5.4pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 5.3pt
+                }
+
+                .c181 {
+                    margin-left: 6pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0095621347427368;
+                    text-align: left;
+                    margin-right: 8.2pt
+                }
+
+                .c199 {
+                    margin-left: 6.2pt;
+                    padding-top: 7.5pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.168766975402832;
+                    text-align: left;
+                    margin-right: 11.4pt
+                }
+
+                .c0 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c229 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.4pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 38.2pt
+                }
+
+                .c8 {
+                    color: #c00000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c194 {
+                    margin-left: 6pt;
+                    padding-top: 0.3pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0115004777908325;
+                    text-align: left;
+                    margin-right: 3.6pt
+                }
+
+                .c119 {
+                    margin-left: 6.6pt;
+                    padding-top: 13.8pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c90 {
+                    margin-left: 6.3pt;
+                    padding-top: 12.6pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1612188816070557;
+                    text-align: left;
+                    margin-right: 31.8pt
+                }
+
+                .c207 {
+                    margin-left: 6.6pt;
+                    padding-top: 2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0163499116897583;
+                    text-align: left;
+                    margin-right: 2.6pt
+                }
+
+                .c269 {
+                    margin-left: 6.7pt;
+                    padding-top: 0pt;
+                    text-indent: -0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 21.8pt
+                }
+
+                .c103 {
+                    margin-left: 6.2pt;
+                    padding-top: 9.2pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140875577926636;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c274 {
+                    margin-left: 6.3pt;
+                    padding-top: 9pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c241 {
+                    margin-left: 6.6pt;
+                    padding-top: 6.5pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1589577198028564;
+                    text-align: left;
+                    margin-right: 11.4pt
+                }
+
+                .c237 {
+                    margin-left: 6.5pt;
+                    padding-top: 13.8pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.6478898525238037;
+                    text-align: left;
+                    margin-right: 57.5pt
+                }
+
+                .c196 {
+                    margin-left: 6.3pt;
+                    padding-top: 9.2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140854120254517;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c270 {
+                    margin-left: 6.2pt;
+                    padding-top: 9.2pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.168009638786316;
+                    text-align: left;
+                    margin-right: 20.7pt
+                }
+
+                .c129 {
+                    color: #4f6228;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Century Gothic";
+                    font-style: normal
+                }
+
+                .c135 {
+                    margin-left: 6.7pt;
+                    padding-top: 14pt;
+                    text-indent: -0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014083981513977;
+                    text-align: left;
+                    margin-right: 6.9pt
+                }
+
+                .c212 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 7.9pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c43 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140867233276367;
+                    text-align: left;
+                    margin-right: 11.1pt
+                }
+
+                .c211 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 33pt
+                }
+
+                .c280 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 12pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c208 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 23.3pt
+                }
+
+                .c87 {
+                    margin-left: 6.3pt;
+                    padding-top: 10.7pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1612235307693481;
+                    text-align: left;
+                    margin-right: 14.7pt
+                }
+
+                .c248 {
+                    margin-left: 5.9pt;
+                    padding-top: 23.7pt;
+                    text-indent: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.005033254623413;
+                    text-align: left;
+                    margin-right: 27.3pt
+                }
+
+                .c156 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.8pt
+                }
+
+                .c33 {
+                    margin-left: 6.5pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c245 {
+                    margin-left: 6.2pt;
+                    padding-top: 9.2pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.013935923576355;
+                    text-align: justify;
+                    margin-right: 2.7pt
+                }
+
+                .c233 {
+                    margin-left: 6.1pt;
+                    padding-top: 27.3pt;
+                    text-indent: -0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.732261061668396;
+                    text-align: left;
+                    margin-right: 10.8pt
+                }
+
+                .c77 {
+                    margin-left: 6pt;
+                    padding-top: 10.8pt;
+                    text-indent: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1638603210449219;
+                    text-align: left;
+                    margin-right: 6.8pt
+                }
+
+                .c122 {
+                    margin-left: 6.2pt;
+                    padding-top: 14pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140869617462158;
+                    text-align: justify;
+                    margin-right: 2.6pt
+                }
+
+                .c255 {
+                    margin-left: 6.3pt;
+                    padding-top: 8.8pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 33.1pt
+                }
+
+                .c216 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0131549835205078;
+                    text-align: left;
+                    margin-right: 14.6pt
+                }
+
+                .c7 {
+                    margin-left: 5.9pt;
+                    padding-top: 6.6pt;
+                    text-indent: 0.9pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0107675790786743;
+                    text-align: left;
+                    margin-right: 6.8pt
+                }
+
+                .c247 {
+                    margin-left: 6.1pt;
+                    padding-top: 7.9pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 2.3020687103271484;
+                    text-align: left;
+                    margin-right: 27.9pt
+                }
+
+                .c242 {
+                    margin-left: 6.6pt;
+                    padding-top: 8pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0155971050262451;
+                    text-align: left;
+                    margin-right: 21.3pt
+                }
+
+                .c108 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.4pt;
+                    text-indent: -0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 55.7pt
+                }
+
+                .c142 {
+                    margin-left: 6.5pt;
+                    padding-top: 9.4pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1770657300949097;
+                    text-align: left;
+                    margin-right: 19.8pt
+                }
+
+                .c167 {
+                    margin-left: 6.1pt;
+                    padding-top: 12.6pt;
+                    text-indent: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.9195204973220825;
+                    text-align: left;
+                    margin-right: 23.8pt
+                }
+
+                .c150 {
+                    margin-left: 6.2pt;
+                    padding-top: 38pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.158958077430725;
+                    text-align: left;
+                    margin-right: 46.7pt
+                }
+
+                .c18 {
+                    margin-left: 6.2pt;
+                    padding-top: 8.8pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c70 {
+                    color: #000000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 10.1pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c31 {
+                    color: #00b050;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c253 {
+                    margin-left: 6.5pt;
+                    padding-top: 4.2pt;
+                    text-indent: -0.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140866041183472;
+                    text-align: left;
+                    margin-right: 47.4pt
+                }
+
+                .c251 {
+                    margin-left: 6.6pt;
+                    padding-top: 14pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 43.6pt
+                }
+
+                .c234 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 2.6pt
+                }
+
+                .c51 {
+                    margin-left: 6pt;
+                    padding-top: 0.3pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0139862298965454;
+                    text-align: left;
+                    margin-right: 23.4pt
+                }
+
+                .c148 {
+                    color: #ff0000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c268 {
+                    margin-left: 5.9pt;
+                    padding-top: 0pt;
+                    text-indent: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140868425369263;
+                    text-align: left;
+                    margin-right: 5.4pt
+                }
+
+                .c228 {
+                    margin-left: 6pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014840841293335;
+                    text-align: left;
+                    margin-right: 6pt
+                }
+
+                .c19 {
+                    color: #000000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Arial";
+                    font-style: normal
+                }
+
+                .c227 {
+                    margin-left: 8.2pt;
+                    padding-top: 16.4pt;
+                    text-indent: -2.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9864467978477478;
+                    text-align: left;
+                    margin-right: 8.9pt
+                }
+
+                .c44 {
+                    margin-left: 6pt;
+                    padding-top: 13.8pt;
+                    text-indent: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140892267227173;
+                    text-align: left;
+                    margin-right: 2.7pt
+                }
+
+                .c11 {
+                    color: #ff0000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c283 {
+                    margin-left: 6.3pt;
+                    padding-top: 12.8pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1589622497558594;
+                    text-align: left;
+                    margin-right: 8.5pt
+                }
+
+                .c176 {
+                    margin-left: 6.3pt;
+                    padding-top: 9pt;
+                    text-indent: -0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140876770019531;
+                    text-align: left;
+                    margin-right: 33.1pt
+                }
+
+                .c264 {
+                    color: #ffc000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c289 {
+                    margin-left: 6.6pt;
+                    padding-top: 14.8pt;
+                    text-indent: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1589577198028564;
+                    text-align: left;
+                    margin-right: 7.7pt
+                }
+
+                .c94 {
+                    color: #4f6228;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 18pt;
+                    font-family: "Arial";
+                    font-style: normal
+                }
+
+                .c276 {
+                    margin-left: 6.2pt;
+                    padding-top: 4.2pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0114974975585938;
+                    text-align: left;
+                    margin-right: 3.5pt
+                }
+
+                .c278 {
+                    margin-left: 6.3pt;
+                    padding-top: 2.5pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1654971837997437;
+                    text-align: left;
+                    margin-right: 11.6pt
+                }
+
+                .c79 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.6pt;
+                    text-indent: -0.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140870809555054;
+                    text-align: left;
+                    margin-right: 12.4pt
+                }
+
+                .c288 {
+                    margin-left: 6.2pt;
+                    padding-top: 32.3pt;
+                    text-indent: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.1680140495300293;
+                    text-align: left;
+                    margin-right: 23.1pt
+                }
+
+                .c45 {
+                    color: #7030a0;
+                    font-weight: 400;
+                    text-decoration: none;
+                    vertical-align: baseline;
+                    font-size: 11pt;
+                    font-family: "Calibri";
+                    font-style: normal
+                }
+
+                .c58 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    text-indent: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.005033254623413;
+                    text-align: left;
+                    margin-right: 18.8pt
+                }
+
+                .c131 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014840841293335;
+                    text-align: left;
+                    margin-right: 42.3pt
+                }
+
+                .c267 {
+                    margin-left: 6pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0127391815185547;
+                    text-align: justify;
+                    margin-right: 9.7pt
+                }
+
+                .c239 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.013978123664856;
+                    text-align: left;
+                    margin-right: 54.8pt
+                }
+
+                .c83 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.013986587524414;
+                    text-align: left;
+                    margin-right: 5.3pt
+                }
+
+                .c205 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.011500358581543;
+                    text-align: left;
+                    margin-right: 40.4pt
+                }
+
+                .c61 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9864467978477478;
+                    text-align: left;
+                    margin-right: 20pt
+                }
+
+                .c128 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014841914176941;
+                    text-align: left;
+                    margin-right: 5.3pt
+                }
+
+                .c281 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0057865381240845;
+                    text-align: left;
+                    margin-right: 15.6pt
+                }
+
+                .c210 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0145912170410156;
+                    text-align: left;
+                    margin-right: 43.2pt
+                }
+
+                .c59 {
+                    margin-left: 6.1pt;
+                    padding-top: 13.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 0.9974865913391113;
+                    text-align: left;
+                    margin-right: 13.2pt
+                }
+
+                .c138 {
+                    margin-left: 6.1pt;
+                    padding-top: 13.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.5769662857055664;
+                    text-align: left;
+                    margin-right: 32.2pt
+                }
+
+                .c258 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0152220726013184;
+                    text-align: left;
+                    margin-right: 15.5pt
+                }
+
+                .c133 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0083681344985962;
+                    text-align: left;
+                    margin-right: 28.1pt
+                }
+
+                .c72 {
+                    margin-left: 6.7pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.014086365699768;
+                    text-align: left;
+                    margin-right: 42pt
+                }
+
+                .c60 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0140866041183472;
+                    text-align: left;
+                    margin-right: 5.3pt
+                }
+
+                .c266 {
+                    margin-left: 6.1pt;
+                    padding-top: 40.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 5.072702407836914;
+                    text-align: left;
+                    margin-right: 58.1pt
+                }
+
+                .c219 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0083681344985962;
+                    text-align: left;
+                    margin-right: 16.4pt
+                }
+
+                .c197 {
+                    margin-left: 6.7pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c25 {
+                    margin-left: 6.7pt;
+                    padding-top: 17.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c32 {
+                    margin-left: 6.7pt;
+                    padding-top: 14.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c162 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c34 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c48 {
+                    margin-left: 5.9pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c76 {
+                    margin-left: 6.1pt;
+                    padding-top: 14pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c163 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c96 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c95 {
+                    margin-left: 6.1pt;
+                    padding-top: 1.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c277 {
+                    margin-left: 6.1pt;
+                    padding-top: 9.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c183 {
+                    margin-left: 6.5pt;
+                    padding-top: 13.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c75 {
+                    margin-left: 24.2pt;
+                    padding-top: 2.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c180 {
+                    margin-left: 6.1pt;
+                    padding-top: 8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c134 {
+                    margin-left: 6.1pt;
+                    padding-top: 16.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c35 {
+                    margin-left: 8.2pt;
+                    padding-top: 31pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c49 {
+                    margin-left: 6.8pt;
+                    padding-top: 22.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c37 {
+                    margin-left: 6.7pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c121 {
+                    margin-left: 5.9pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c190 {
+                    margin-left: 6.3pt;
+                    padding-top: 13.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c6 {
+                    margin-left: 6.3pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c74 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c218 {
+                    margin-left: 6.6pt;
+                    padding-top: 5.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c273 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c172 {
+                    margin-left: 6.1pt;
+                    padding-top: 121.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c14 {
+                    margin-left: 6.1pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c168 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: right;
+                    margin-right: 270.9pt
+                }
+
+                .c230 {
+                    margin-left: 6.1pt;
+                    padding-top: 10.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c89 {
+                    margin-left: 6.2pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c271 {
+                    margin-left: 6.7pt;
+                    padding-top: 10.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c36 {
+                    margin-left: 6.1pt;
+                    padding-top: 21.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c123 {
+                    margin-left: 6pt;
+                    padding-top: 7.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c125 {
+                    margin-left: 6.1pt;
+                    padding-top: 10.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c173 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c26 {
+                    margin-left: 6.7pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c41 {
+                    margin-left: 6.1pt;
+                    padding-top: 39.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c88 {
+                    margin-left: 6.6pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c109 {
+                    margin-left: 6.1pt;
+                    padding-top: 81.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c71 {
+                    margin-left: 6.1pt;
+                    padding-top: 9pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c257 {
+                    margin-left: 6.5pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c112 {
+                    margin-left: 24.2pt;
+                    padding-top: 10.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c215 {
+                    padding-top: 10.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: right;
+                    margin-right: 244pt
+                }
+
+                .c23 {
+                    margin-left: 6.5pt;
+                    padding-top: 13.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c9 {
+                    margin-left: 5.8pt;
+                    padding-top: 2.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c124 {
+                    margin-left: 6.7pt;
+                    padding-top: 8.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c152 {
+                    margin-left: 6.1pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c204 {
+                    margin-left: 6.7pt;
+                    padding-top: 7.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c254 {
+                    margin-left: 6.7pt;
+                    padding-top: 15.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c201 {
+                    margin-left: 6.4pt;
+                    padding-top: 0.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c114 {
+                    margin-left: 6pt;
+                    padding-top: 18.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c188 {
+                    margin-left: 6.7pt;
+                    padding-top: 13.9pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c92 {
+                    margin-left: 6.5pt;
+                    padding-top: 13.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c62 {
+                    margin-left: 6.2pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c272 {
+                    margin-left: 6.3pt;
+                    padding-top: 0.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c149 {
+                    margin-left: 6.7pt;
+                    padding-top: 5.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c137 {
+                    margin-left: 6.1pt;
+                    padding-top: 27.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c3 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.15;
+                    text-align: left;
+                    height: 11pt
+                }
+
+                .c118 {
+                    margin-left: 8.5pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c189 {
+                    margin-left: 6.3pt;
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c235 {
+                    margin-left: 6.1pt;
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c46 {
+                    margin-left: 6.7pt;
+                    padding-top: 17.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c30 {
+                    margin-left: 6.7pt;
+                    padding-top: 12.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c126 {
+                    margin-left: 6.1pt;
+                    padding-top: 20pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c179 {
+                    margin-left: 6.1pt;
+                    padding-top: 8.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c106 {
+                    margin-left: 6pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c98 {
+                    margin-left: 5.8pt;
+                    padding-top: 14pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c287 {
+                    margin-left: 5.9pt;
+                    padding-top: 6.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c73 {
+                    margin-left: 6.1pt;
+                    padding-top: 0.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c38 {
+                    margin-left: 6.7pt;
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c200 {
+                    margin-left: 5.9pt;
+                    padding-top: 9.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c69 {
+                    margin-left: 6.6pt;
+                    padding-top: 1.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c28 {
+                    margin-left: 6.1pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c99 {
+                    margin-left: 5.7pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c104 {
+                    margin-left: 5.8pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c107 {
+                    margin-left: 6.1pt;
+                    padding-top: 121.1pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c100 {
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: right;
+                    margin-right: 270.9pt
+                }
+
+                .c120 {
+                    margin-left: 6.2pt;
+                    padding-top: 8.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c140 {
+                    margin-left: 6.2pt;
+                    padding-top: 0.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c54 {
+                    margin-left: 6.6pt;
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c170 {
+                    margin-left: 6.6pt;
+                    padding-top: 2.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c265 {
+                    margin-left: 5.6pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c40 {
+                    margin-left: 6.1pt;
+                    padding-top: 10.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c5 {
+                    margin-left: 5.8pt;
+                    padding-top: 0.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c16 {
+                    margin-left: 6.1pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c160 {
+                    margin-left: 6.1pt;
+                    padding-top: 40.9pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c154 {
+                    margin-left: 6.4pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c116 {
+                    padding-top: 9.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: right;
+                    margin-right: 88.8pt
+                }
+
+                .c105 {
+                    margin-left: 6pt;
+                    padding-top: 13.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c66 {
+                    margin-left: 6.2pt;
+                    padding-top: 8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c2 {
+                    margin-left: 6.7pt;
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c21 {
+                    margin-left: 6.2pt;
+                    padding-top: 12.6pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c55 {
+                    margin-left: 6.5pt;
+                    padding-top: 26.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c56 {
+                    margin-left: 6.5pt;
+                    padding-top: 8.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c249 {
+                    margin-left: 6.3pt;
+                    padding-top: 22.3pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c78 {
+                    margin-left: 5.9pt;
+                    padding-top: 13.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: left
+                }
+
+                .c161 {
+                    margin-left: 113.6pt;
+                    border-spacing: 0;
+                    border-collapse: collapse;
+                    margin-right: auto
+                }
+
+                .c186 {
+                    padding-top: 28.4pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c244 {
+                    padding-top: 58.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c187 {
+                    padding-top: 12.9pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c209 {
+                    padding-top: 11.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c260 {
+                    padding-top: 14.8pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c136 {
+                    padding-top: 27.5pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c275 {
+                    padding-top: 26pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c20 {
+                    border-spacing: 0;
+                    border-collapse: collapse;
+                    margin-right: auto
+                }
+
+                .c64 {
+                    padding-top: 0pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c202 {
+                    padding-top: 26.7pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c130 {
+                    padding-top: 27.2pt;
+                    padding-bottom: 0pt;
+                    line-height: 1.0;
+                    text-align: center
+                }
+
+                .c159 {
+                    background-color: #ffffff;
+                    max-width: 551.3pt;
+                    padding: 8.4pt 30.5pt 38.3pt 30.2pt
+                }
+
+                .c164 {
+                    height: 318.1pt
+                }
+
+                .c24 {
+                    height: 87.1pt
+                }
+
+                .c256 {
+                    height: 186.1pt
+                }
+
+                .c250 {
+                    height: 170.2pt
+                }
+
+                .c286 {
+                    height: 391.3pt
+                }
+
+                .c115 {
+                    height: 81.2pt
+                }
+
+                .c47 {
+                    height: 158pt
+                }
+
+                .c147 {
+                    height: 38.4pt
+                }
+
+                .c185 {
+                    height: 109.2pt
+                }
+
+                .c192 {
+                    height: 275.1pt
+                }
+
+                .c117 {
+                    height: 65.3pt
+                }
+
+                .c262 {
+                    height: 14pt
+                }
+
+                .c224 {
+                    height: 269.1pt
+                }
+
+                .c252 {
+                    height: 67.7pt
+                }
+
+                .c67 {
+                    height: 148.1pt
+                }
+
+                .c91 {
+                    height: 13.9pt
+                }
+
+                .c238 {
+                    height: 592.7pt
+                }
+
+                .c151 {
+                    height: 54.3pt
+                }
+
+                .c284 {
+                    height: 198.3pt
+                }
+
+                .c221 {
+                    height: 88.6pt
+                }
+
+                .c169 {
+                    height: 133.7pt
+                }
+
+                .c12 {
+                    height: 504.9pt
+                }
+
+                .c146 {
+                    height: 118.9pt
+                }
+
+                .c113 {
+                    height: 176.2pt
+                }
+
+                .c52 {
+                    background-color: #c2d69b
+                }
+
+                .c184 {
+                    height: 219.2pt
+                }
+
+                .title {
+                    padding-top: 24pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 36pt;
+                    padding-bottom: 6pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                .subtitle {
+                    padding-top: 18pt;
+                    color: #666666;
+                    font-size: 24pt;
+                    padding-bottom: 4pt;
+                    font-family: "Georgia";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    font-style: italic;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                li {
+                    color: #000000;
+                    font-size: 11pt;
+                    font-family: "Arial"
+                }
+
+                p {
+                    margin: 0;
+                    color: #000000;
+                    font-size: 11pt;
+                    font-family: "Arial"
+                }
+
+                h1 {
+                    padding-top: 24pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 24pt;
+                    padding-bottom: 6pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                h2 {
+                    padding-top: 18pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 18pt;
+                    padding-bottom: 4pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                h3 {
+                    padding-top: 14pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 14pt;
+                    padding-bottom: 4pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                h4 {
+                    padding-top: 12pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 12pt;
+                    padding-bottom: 2pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                h5 {
+                    padding-top: 11pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 11pt;
+                    padding-bottom: 2pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+
+                h6 {
+                    padding-top: 10pt;
+                    color: #000000;
+                    font-weight: 700;
+                    font-size: 10pt;
+                    padding-bottom: 2pt;
+                    font-family: "Arial";
+                    line-height: 1.15;
+                    page-break-after: avoid;
+                    orphans: 2;
+                    widows: 2;
+                    text-align: left
+                }
+            </style>
+        </head>
+
+        <body class="c159 doc-content">
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c202"><span class="c0">&nbsp; </span></p>
+            <p class="c215"><span class="c94">HTML &nbsp;</span></p>
+            <p class="c260"><span class="c232">HyperText Markup Language (lenguaje de marcado de hipertexto) </span></p>
+            <p class="c288"><span class="c0">HTML sirve para modelar la estructura de una p&aacute;gina web. Los
+                    elementos de HTML indican al navegador web c&oacute;mo mostrar el contenido. Los elementos de HTML
+                    se definen con </span><span class="c4">etiquetas</span><span class="c0">. Los navegadores no
+                    muestran las etiquetas, &nbsp;sino que las usan para interpretar el contenido. </span></p>
+            <p class="c87"><span class="c0">HTML puede ser codificado con cualquier editor de texto, para que el
+                    navegador lo reconozca, el archivo debe tener la &nbsp;extensi&oacute;n &ldquo;</span><span
+                    class="c4">.html</span><span class="c0">&rdquo;. &nbsp;</span></p>
+            <p class="c77"><span class="c0">Algunos editores que nos ayudaran a codificar en HTML son SublimeText y
+                    VisualStudioCode, aunque el m&aacute;s importante &nbsp;o de mayor difusi&oacute;n es DreamWeaver,
+                    por la cantidad de herramientas y soporte (este IDE no es Freeware). Estos &nbsp;editores ponen
+                    autom&aacute;ticamente color a nuestro c&oacute;digo para guiarnos y muchas veces nos dar&aacute;n
+                    sugerencias al apretar &nbsp;una tecla o har&aacute;n el cierre de etiquetas autom&aacute;ticamente.
+                    Para elegir uno de ellos es recomendable haberlos probado &nbsp;todos, incluyendo el block de notas.
+                </span></p>
+            <p class="c271"><span class="c0">Para descargar Visual Studio Code puedo hacerlo desde </span><span
+                    class="c29">https://code.visualstudio.com/#alt-downloads</span><span class="c0">. </span></p>
+            <p class="c21"><span class="c0">Si te interesa ver una breve historia de HTML pod&eacute;s ver este video:
+                    &nbsp;</span></p>
+            <p class="c170"><span class="c29">https://www.youtube.com/watch?time_continue=118&amp;v=B5VjL2f1IQg </span>
+            </p>
+            <p class="c38"><span class="c8">En internet podr&aacute;s encontrar millones de tutoriales de HTML que
+                    explican desde cero!! </span></p>
+            <p class="c263"><span class="c4">Visual Studio Code </span><span class="c0">nos crea una plantilla
+                    b&aacute;sica de forma autom&aacute;tica. Para acceder debemos crear nuestro archivo con
+                    &nbsp;extensi&oacute;n html y una vez dentro de &eacute;l tenemos dos opciones: &nbsp;</span></p>
+            <p class="c112"><span class="c0">- Escribimos un signo de admiraci&oacute;n de cierre (!) y presionamos la
+                    tecla tab. </span></p>
+            <p class="c75"><span class="c0">- Escribimos html:5 y presionamos la tecla tab </span></p>
+            <p class="c38"><span class="c0">Ejemplo simple de HTML:</span></p>
+            <p class="c187"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 539.93px; height: 213.07px;"><img
+                        alt="" src="images/image2.png"
+                        style="width: 539.93px; height: 213.07px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c137"><span class="c102">&lt;!DOCTYPE html&gt; </span></p>
+            <p class="c189"><span class="c0">esta etiqueta nos indica que es un documento HTML5 </span></p>
+            <p class="c235"><span class="c102">&lt;html lang=&quot;en&quot;&gt; </span></p>
+            <p class="c214"><span class="c4">html </span><span class="c0">es el elemento ra&iacute;z de una
+                    p&aacute;gina HTML </span><span class="c4">lang </span><span class="c0">hace referencia al idioma,
+                    por defecto esta en ingl&eacute;s (&ldquo;en&rdquo;); pero &nbsp;puedo cambiarlo a espa&ntilde;ol
+                    (&ldquo;es&rdquo;), si requerimos el uso de acentos o convenciones del lenguaje espa&ntilde;ol, es
+                    importante &nbsp;que se defina como tal. </span></p>
+            <p class="c230"><span class="c102">&lt;head&gt; &nbsp;</span></p>
+            <p class="c90"><span class="c0">La etiqueta head (que define la cabecera o &aacute;rea de encabezado) puede
+                    incluir un t&iacute;tulo para el documento, scripts, &nbsp;estilos, metadatos que sirven a los
+                    buscadores para definir la informaci&oacute;n principal de nuestra p&aacute;gina. </span></p>
+            <p class="c57"><span class="c0">Dentro de la etiqueta &lt;head&gt; podemos encontrar los siguientes
+                    elementos: &lt;title&gt; (requerido en un documento HTML, y &nbsp;es el t&iacute;tulo que se
+                    ver&aacute; en nuestra p&aacute;gina), &lt;style&gt;, &lt;base&gt;, &lt;link&gt;, &lt;meta&gt;,
+                    &lt;script&gt;, &lt;noscript&gt; </span></p>
+            <p class="c40"><span class="c102">&lt;body&gt; </span></p>
+            <p class="c167"><span class="c0">La etiqueta body define el cuerpo del documento y todo su contenido (texto,
+                    hyperlinks, im&aacute;genes, tablas, listas, etc) </span><span class="c102">&lt;h1&gt; </span></p>
+            <p class="c17"><span class="c0">Ejemplo de encabezado (heading) h1&lt;/h1&gt; Las etiquetas h1 a h6 son
+                    diferentes tipos de encabezados, &uacute;til para definir &nbsp;t&iacute;tulos y subtitulos </span>
+            </p>
+            <p class="c125"><span class="c102">&lt;p&gt; </span></p>
+            <p class="c38"><span class="c0">Ejemplo de p&aacute;rrafo p &lt;/p&gt; La etiqueta p le indica al explorador
+                    que se trata de un p&aacute;rrafo. </span></p>
+            <p class="c150"><span class="c0">La manera m&aacute;s sencilla de visualizar nuestra p&aacute;gina es hacer
+                    click derecho sobre el nombre de archivo en VSC y &nbsp;seleccionar &ldquo;copy path&rdquo;, luego
+                    pegamos el path en cualquier navegador.</span></p>
+            <p class="c209"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 500.87px; height: 155.47px;"><img
+                        alt="" src="images/image4.png"
+                        style="width: 500.87px; height: 155.47px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c186"><span class="c22">ETIQUETAS HTML </span></p>
+            <p class="c283"><span class="c0">Las etiquetas HTML generalmente se usan en pares &lt;h2&gt; y &lt;/h2&gt;.
+                    La primera etiqueta marca la apertura y la segunda el &nbsp;cierre. &nbsp;</span></p>
+            <p class="c241"><span class="c0">La finalidad de un navegador web es leer las etiquetas HTML. El navegador
+                    no mostrar&aacute; estas etiquetas; sino que las &nbsp;usar&aacute; para determinar c&oacute;mo
+                    tiene que mostrar el contenido. Puede haber diferencias entre los diferentes navegadores.</span></p>
+            <table class="c20">
+                <tr class="c117">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c6"><span class="c0">COMENTARIOS INTERNOS </span></p>
+                        <p class="c276"><span class="c1">Es siempre &uacute;til poder poner comentarios dentro de
+                                nuestro &nbsp;c&oacute;digo. Los comentarios no son mostrados por el navegador y se
+                                &nbsp;ponen entre </span><span class="c70">&lt;!-- </span><span class="c1">y
+                            </span><span class="c70">--&gt;</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Ejemplo: </span></p>
+                        <p class="c92"><span class="c111">&lt;!--este es un comentario en html--&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c151">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">ENCABEZADOS (headings) </span></p>
+                        <p class="c153"><span class="c1">Los encabezados se usan para t&iacute;tulos y
+                                subt&iacute;tulos, tienen un &nbsp;formato negrita.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c268"><span class="c0">h1, h2, h3, h4, h5 y h6 se utilizan con etiqueta de apertura
+                                &nbsp;y de cierre ej: &lt;h1&gt; Texto del encabezado &lt;/h1&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c147">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">PARRAFOS </span></p>
+                        <p class="c69"><span class="c1">Marca el comienzo y fin de un p&aacute;rrafo </span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;p&gt;Texto del p&aacute;rrafo.&lt;/p&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c113">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">LINKS o enlaces </span></p>
+                        <p class="c132"><span class="c1">Se usa con la etiqueta </span><span class="c70">&lt;a&gt;
+                            </span><span class="c1">y nos llevan a otra p&aacute;gina o &nbsp;documento. &nbsp;</span>
+                        </p>
+                        <p class="c216"><span class="c1">El atributo </span><span class="c70">href </span><span
+                                class="c1">indica el path (direcci&oacute;n f&iacute;sica) del documento &nbsp;que
+                                quiero ir. </span></p>
+                        <p class="c194"><span class="c1">Si quiero ir a una parte particular de la pag debo utilizar un
+                                ancla &nbsp;y definirlo como id en destino. </span></p>
+                        <p class="c54"><span class="c1">Links a Email </span></p>
+                        <p class="c101"><span class="c1">Se puede vincular el enlace al cliente de correo predeterminado
+                                &nbsp;de la computadora mediante mailto. </span></p>
+                        <p class="c73"><span class="c1">Se le puede agregar un asunto agregando ?Subject</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c157"><span class="c0">&lt;a href=&rdquo;otrodocumento.html&rdquo;&gt; Texto o
+                                elemento que &nbsp;nos llevar&aacute; al link &lt;/a&gt; </span></p>
+                        <p class="c59"><span class="c0">&lt;a href=#ejemploancla&gt;Link a una seccion
+                                particular&lt;/a&gt; &lt;a id=ejemploancla&gt;Destino&lt;/a&gt; </span></p>
+                        <p class="c136"><span class="c0">&lt;a href=&quot;mailto:pgiaimo@abc.gob.ar &quot;&gt; Mandar
+                                mail&lt;/a&gt; </span></p>
+                        <p class="c135"><span class="c0">&lt;a
+                                href=&quot;mailto:pgiaimo@abc.gob.ar?Subject=Consulta&quot;&gt; &nbsp;Mandar
+                                mail&lt;/a&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c184">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">IM&Aacute;GENES </span><span class="c4">&lt;img&gt; </span></p>
+                        <p class="c149"><span class="c0">Las im&aacute;genes no necesitan etiqueta de cierre.
+                                &nbsp;</span></p>
+                        <p class="c218"><span class="c1">Puede tener los siguientes atributos: &nbsp;</span></p>
+                        <p class="c95"><span class="c70">src</span><span class="c1">= indica el path de la imagen
+                                (obligatorio) </span></p>
+                        <p class="c110"><span class="c70">alt</span><span class="c1">= indica un texto alternativo para
+                                mostrar en caso que el &nbsp;explorador no pueda cargar la imagen </span></p>
+                        <p class="c267"><span class="c70">width</span><span class="c1">= indica el ancho de la
+                                im&aacute;genes en p&iacute;xeles, o si lo pongo &nbsp;como porcentaje indica el
+                                porcentaje de ancho de pantalla que &nbsp;va a ocupar. </span></p>
+                        <p class="c201"><span class="c70">height</span><span class="c1">= indica la altura de la imagen
+                            </span></p>
+                        <p class="c28"><span class="c70">style</span><span class="c1">= permite indicar la altura y
+                                ancho. </span></p>
+                        <p class="c5"><span class="c1">&nbsp;(Ej: style=&quot;width:128px;height:128px;&quot;)</span>
+                        </p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Ejemplos: </span></p>
+                        <p class="c195"><span class="c0">&lt;img src=imagenes/descarga.jpg alt=&quot;la imagen que
+                                &nbsp;descargue&quot; style=&quot;width:128px;height:128px;&quot;&gt; </span></p>
+                        <p class="c176"><span class="c0">&lt;img src=imagenes/descarga.jpg alt=&quot;la imagen que
+                                &nbsp;descargue&quot; width=25%&gt; </span></p>
+                        <p class="c255"><span class="c0">&lt;img src=imagenes/descarga.jpg alt=&quot;la imagen que
+                                &nbsp;descargue&quot; width=&quot;500&quot; height=&quot;400&quot;&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo</span></p>
+            <table class="c20">
+                <tr class="c115">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">FAVICON </span></p>
+                        <p class="c211"><span class="c0">Es el icono que muestra la pesta&ntilde;a. Para agregarlo
+                                &nbsp;debemos tener la imagen en formato .ico. Debemos &nbsp;definirlo dentro del
+                                head.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;link href=monsters.ico rel=icon&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c47">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">BOTONES </span><span class="c4">&lt;button&gt; </span></p>
+                        <p class="c213"><span class="c1">Dentro de un bot&oacute;n podes poner texto o imagen. Esa es la
+                                &nbsp;diferencia con los botones hechos con </span><span class="c70">input</span><span
+                                class="c1">. </span></p>
+                        <p class="c165"><span class="c1">El elemento </span><span class="c70">&lt;button&gt;
+                            </span><span class="c1">necesita el atributo </span><span class="c70">type=button
+                            </span><span class="c1">Algunos atributos m&aacute;s comunes de los botones: </span></p>
+                        <p class="c85"><span class="c1">Autofocus: Para que el bot&oacute;n tenga foco cuando se carga
+                                la &nbsp;p&aacute;gina </span></p>
+                        <p class="c272"><span class="c1">disabled: el bot&oacute;n estar&aacute; deshabilitado </span>
+                        </p>
+                        <p class="c143"><span class="c1">form: informa a que formulario pertenece el bot&oacute;n name:
+                                es el nombre del bot&oacute;n </span></p>
+                        <p class="c163"><span class="c1">type: tipo de bot&oacute;n, puede ser button, reset o
+                                submit</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;button type=button &gt;el bot&oacute;n&lt;/button&gt;</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="c256">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">LISTAS </span></p>
+                        <p class="c217"><span class="c0">Podemos crear listas ordenadas </span><span
+                                class="c4">&lt;ol&gt; </span><span class="c0">(ordered list&gt; o listas
+                                &nbsp;desordenadas </span><span class="c4">&lt;ul&gt; </span><span class="c0">(unordered
+                                list). Cada elemento debe &nbsp;ir entre la etiqueta </span><span class="c4">&lt;li&gt;
+                            </span><span class="c0">(list &iacute;tem) </span></p>
+                        <p class="c188"><span class="c0">Las listas se pueden anidar. </span></p>
+                        <p class="c251"><span class="c0">Proba los ejemplos en tu p&aacute;gina para ver c&oacute;mo se
+                                &nbsp;muestran en el navegador!!</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Ejemplo lista ordenada: </span></p>
+                        <p class="c14"><span class="c1">&lt;ol&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Enero&lt;/li&gt; </span></p>
+                        <p class="c74"><span class="c1">&nbsp;&lt;li&gt;Febrero&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Marzo&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Abril&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;/ol&gt; </span></p>
+                        <p class="c197"><span class="c0">Ejemplo lista desordenada: </span></p>
+                        <p class="c14"><span class="c1">&lt;ul&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Verano&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Oto&ntilde;o&lt;/li&gt; </span></p>
+                        <p class="c74"><span class="c1">&nbsp;&lt;li&gt;Invierno&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;li&gt;Primavera&lt;/li&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;/ul&gt; </span></p>
+                        <p class="c104"><span class="c1">&nbsp;</span></p>
+                    </td>
+                </tr>
+                <tr class="c252">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c89"><span class="c0">SALTO DE L&Iacute;NEA </span></p>
+                        <p class="c65"><span class="c0">Para agregar un salto de l&iacute;nea utilizo la etiqueta
+                            </span><span class="c4">&lt;br&gt; </span><span class="c0">(break line). Esta etiqueta no
+                                tiene etiqueta de cierre.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Un texto &lt;br&gt; Otro texto &lt;br&gt;&lt;br&gt; tercer
+                                texto</span></p>
+                    </td>
+                </tr>
+                <tr class="c250">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">FORMATOS DE TEXTO </span></p>
+                        <p class="c204"><span class="c0">Negrita </span><span class="c4">&lt;b&gt; </span></p>
+                        <p class="c231"><span class="c0">Importante </span><span class="c4">&lt;strong&gt;</span><span
+                                class="c0">, practicamente igual q negrita Cursiva </span><span class="c4">&lt;i&gt;
+                            </span></p>
+                        <p class="c37"><span class="c0">Enfatizado </span><span class="c4">&lt;em&gt; </span></p>
+                        <p class="c26"><span class="c0">Resaltado </span><span class="c4">&lt;mark&gt; </span></p>
+                        <p class="c26"><span class="c0">Peque&ntilde;o </span><span class="c4">&lt;small&gt; </span></p>
+                        <p class="c162"><span class="c0">Tachado </span><span class="c4">&lt;del&gt; </span></p>
+                        <p class="c140"><span class="c0">Subrayado </span><span class="c4">&lt;ins&gt; </span></p>
+                        <p class="c140"><span class="c0">Sub&iacute;ndice </span><span class="c4">&lt;sub&gt; </span>
+                        </p>
+                        <p class="c140"><span class="c0">Superior </span><span class="c4">&lt;sup&gt;</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Ejemplos: </span></p>
+                        <p class="c98"><span class="c1">Texto &lt;b&gt;texto en negrita&lt;/b&gt; m&aacute;s texto
+                            </span></p>
+                        <p class="c239"><span class="c1">Texto &lt;strong&gt;texto importante&lt;/strong&gt; m&aacute;s
+                                texto Texto &lt;i&gt;texto en cursiva&lt;/i&gt; m&aacute;s texto </span></p>
+                        <p class="c273"><span class="c1">Texto &lt;em&gt;texto enfatizado&lt;/em&gt; m&aacute;s texto
+                            </span></p>
+                        <p class="c5"><span class="c1">Texto &lt;mark&gt;texto resaltado &lt;/mark&gt; m&aacute;s texto
+                            </span></p>
+                        <p class="c5"><span class="c1">Texto &lt;small&gt;texto peque&ntilde;o&lt;/small&gt; m&aacute;s
+                                texto </span></p>
+                        <p class="c5"><span class="c1">Texto &lt;del&gt;texto tachado&lt;/del&gt; m&aacute;s texto
+                            </span></p>
+                        <p class="c205"><span class="c1">Texto &lt;ins&gt;texto insertado (subrayado)&lt;/ins&gt;
+                                m&aacute;s texto Texto &lt;sub&gt;texto sub&iacute;ndice&lt;/sub&gt; m&aacute;s texto
+                            </span></p>
+                        <p class="c34"><span class="c1">Texto &lt;sup&gt;texto superior&lt;/sup&gt; m&aacute;s
+                                texto</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo</span></p>
+            <table class="c20">
+                <tr class="c286">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c106"><span class="c0">ABREVIATURAS: </span></p>
+                        <p class="c158"><span class="c0">Se puede poner un acr&oacute;nimo que al pasar el mouse sobre
+                                &nbsp;&eacute;l muestre el texto al que hace referencia. Para eso &nbsp;usamos la
+                                etiqueta </span><span class="c4">&lt;abbr&gt; </span><span class="c0">y debemos poner
+                                dentro el &nbsp;titulo completo como atributo </span><span class="c4">title</span><span
+                                class="c0">. </span></p>
+                        <p class="c249"><span class="c0">CITAS: </span></p>
+                        <p class="c175"><span class="c0">Los navegadores identifican una cita cuando est&aacute; entre
+                                las &nbsp;etiquetas </span><span class="c4">&lt;q&gt;</span><span class="c0">.
+                                Visualmente pone el texto entre comillas. </span></p>
+                        <p class="c25"><span class="c0">DIRECCION o firma: </span></p>
+                        <p class="c155"><span class="c0">Para definir la informaci&oacute;n de contacto de un documento
+                                &nbsp;o art&iacute;culo podemos usar la etiqueta </span><span
+                                class="c4">&lt;address&gt;</span><span class="c0">. &nbsp;Los navegadores suelen mostrar
+                                su contenido en cursiva y &nbsp;agregar un salto de l&iacute;nea anterior y posterior
+                            </span></p>
+                        <p class="c46"><span class="c0">DIRECCION DEL TEXTO: </span></p>
+                        <p class="c42"><span class="c0">Se puede cambiar la direcci&oacute;n del texto (ten&eacute; en
+                                cuenta &nbsp;que hay idiomas que se escriben de derecha a izquierda). &nbsp;Para eso se
+                                usa el elemento </span><span class="c4">&lt;bdo&gt; </span><span class="c0">(bi
+                                directional &nbsp;override). Dentro de esta etiqueta debemos dar la
+                                &nbsp;direcci&oacute;n en el atributo </span><span class="c4">dir</span><span
+                                class="c0">: </span><span class="c4">ltr </span><span class="c0">para left to right
+                                (izquierda &nbsp;a derecha) o </span><span class="c4">rtl </span><span class="c0">para
+                                right to left (derecha a izquierda)</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c269"><span class="c0">&lt;p&gt;El lenguaje &lt;abbr title=&quot;Hyper Text Markup
+                                &nbsp;Lenguaje&quot;&gt;HTML&lt;/abbr&gt; es muy sencillo de usar!!&lt;/p&gt; </span>
+                        </p>
+                        <p class="c109"><span class="c0">&lt;p&gt;Texto &lt;q&gt;cita&lt;/q&gt; otro texto&lt;/p&gt;
+                            </span></p>
+                        <p class="c41"><span class="c1">&lt;p&gt;&lt;address&gt;Sagrado Coraz&oacute;n&lt;br&gt; </span>
+                        </p>
+                        <p class="c173"><span class="c1">Potos&iacute; 2055 &lt;br&gt; </span></p>
+                        <p class="c88"><span class="c1">1824 &lt;br&gt; </span></p>
+                        <p class="c121"><span class="c1">Valentin Alsina &lt;br&gt; </span></p>
+                        <p class="c88"><span class="c1">Buenos Aires &lt;br&gt;&lt;/address&gt;&lt;/p&gt; </span></p>
+                        <p class="c259"><span class="c1">&nbsp;&lt;p&gt;&lt;bdo dir=&quot;rtl&quot;&gt;Este texto se
+                                muestra de derecha a &nbsp;izquierda&lt;/bdo&gt;&lt;/p&gt; </span></p>
+                        <p class="c206"><span class="c1">&nbsp;&lt;p&gt;&lt;bdo dir=&quot;ltr&quot;&gt;Este texto se
+                                muestra de izquierda a &nbsp;derecha&lt;/bdo&gt;&lt;/p&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c224">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c106"><span class="c0">VIDEOS </span></p>
+                        <p class="c49"><span class="c280">Desde YouTube </span></p>
+                        <p class="c7"><span class="c0">La manera m&aacute;s sencilla de incluir un video en tu html es
+                                &nbsp;hacer que youtube reproduzca el video en tu p&aacute;gina. Para &nbsp;hacer eso
+                                necesitas construir un marco (frame) y enlazar &nbsp;el video a &eacute;l. Para esto
+                                utilizaremos las etiquetas </span><span class="c4">&lt;iframe&gt; </span><span
+                                class="c0">y en el atributo </span><span class="c4">src </span><span
+                                class="c0">pondremos la direcci&oacute;n web del video. &nbsp;Tambien debemos definir un
+                                tama&ntilde;o para el frame. </span></p>
+                        <p class="c203"><span class="c0">Youtube tambi&eacute;n tiene una opci&oacute;n para
+                                facilitarnos a&uacute;n &nbsp;m&aacute;s la vida. En cualquier video, si hacemos click
+                                debajo en &nbsp;&ldquo;compartir&rdquo; tendremos la opci&oacute;n &lt;incorporar&gt;,
+                                si &nbsp;hacemos click en ella tendremos el c&oacute;digo html listo para &nbsp;copiar y
+                                pegar en nuestra p&aacute;gina.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Ejemplos: </span></p>
+                        <p class="c160"><span class="c0">&lt;iframe width=300 height=300 &nbsp;</span></p>
+                        <p class="c208"><span class="c0">src=&quot;https://www.youtube.com/embed/B5VjL2f1IQg&quot;
+                                &nbsp;&gt;&lt;/iframe&gt; </span></p>
+                        <p class="c190"><span class="c0">C&oacute;digo que me da youtube: </span></p>
+                        <p class="c98"><span class="c0">&nbsp;&lt;iframe width=&quot;560&quot; height=&quot;315&quot;
+                                &nbsp;</span></p>
+                        <p class="c51"><span class="c0">src=&quot;https://www.youtube.com/embed/B5VjL2f1IQg&quot;
+                                &nbsp;frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay;
+                                &nbsp;encrypted-media; gyroscope; picture-in-picture&quot;
+                                &nbsp;allowfullscreen&gt;&lt;/iframe&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo</span></p>
+            <table class="c20">
+                <tr class="c164">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Desde nuestro sitio: </span></p>
+                        <p class="c93"><span class="c0">En HTML5 tambi&eacute;n podemos incluir nuestro video en
+                                &nbsp;formato mp4 o ogg. Para eso usaremos las etiquetas &nbsp;</span><span
+                                class="c4">&lt;video&gt; </span></p>
+                        <p class="c181"><span class="c0">Dentro de estas etiquetas debemos usar las etiquetas
+                                &nbsp;</span><span class="c4">&lt;source&gt; </span><span class="c0">para indicar el
+                                origen </span><span class="c4">src </span><span class="c0">y el tipo </span><span
+                                class="c4">type</span><span class="c0">. Siempre &nbsp;es importante agregar m&aacute;s
+                                de un src ya que dependiendo &nbsp;del navegador puede llegar a no reproducir alguno de
+                                los &nbsp;formatos. El navegador elegir&aacute; el primero que reconozca. </span></p>
+                        <p class="c236"><span class="c0">El atributo </span><span class="c4">controls </span><span
+                                class="c0">hace que el video tenga los botones &nbsp;de control por defecto, play,
+                                pausa, volumen, l&iacute;nea de &nbsp;reproducci&oacute;n. Estos controles pueden
+                                personalizarse y por &nbsp;ejemplo en vez de botones poner im&aacute;genes. </span></p>
+                        <p class="c127"><span class="c0">El atributo </span><span class="c4">autoplay </span><span
+                                class="c0">hace que el video se reproduzca solo. Pod&eacute;s investigar sobre
+                                c&oacute;mo crear tu propio reproductor!! Si aprendes javascript podr&aacute;s sacar
+                                mejor provecho de &nbsp;html.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;video width=&quot;320&quot; height=&quot;240&quot;
+                                controls&gt; </span></p>
+                        <p class="c210"><span class="c0">&nbsp;&lt;source src=&quot;mivideo.mp4&quot;
+                                type=&quot;video/mp4&quot;&gt; &nbsp;&lt;source src=&quot;mivideo.ogg&quot;
+                                type=&quot;video/ogg&quot;&gt; &nbsp;Tu navegador no puede reproducir este video
+                                &nbsp;&lt;/video&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c67">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c106"><span class="c0">AUDIO: </span></p>
+                        <p class="c287"><span class="c0">Tambien desde html5. &nbsp;</span></p>
+                        <p class="c228"><span class="c0">Casi igual que con video, podremos incorporar audio esta
+                                &nbsp;vez con las etiquetas </span><span class="c4">&lt;audio&gt;</span><span
+                                class="c0">. Igual que con video &nbsp;debemos agregar las etiquetas </span><span
+                                class="c4">source </span><span class="c0">con los atributos </span><span class="c4">src
+                            </span><span class="c0">y </span><span class="c4">type</span><span class="c0">. </span></p>
+                        <p class="c50"><span class="c0">Tanto para audio como para video la frase que ponemos
+                                &nbsp;dentro de las etiquetas solamente se mostrar&aacute; si el &nbsp;navegador no
+                                soporta html5</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;audio controls&gt; </span></p>
+                        <p class="c131"><span class="c0">&nbsp;&lt;source src=&quot;miaudio.ogg&quot;
+                                type=&quot;audio/ogg&quot;&gt; &nbsp;&lt;source src=&quot;miaudio.mp3&quot;
+                                type=&quot;audio/mp3&quot;&gt; &nbsp;Tu navegador no puede reproducir este audio
+                                &nbsp;&lt;/audio&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c186"><span class="c129">ELEMENTOS EN BLOQUE Y EN LINEA </span></p>
+            <p class="c30"><span class="c0">Los distintos elementos de html pueden ser en bloque o en l&iacute;na.
+                </span></p>
+            <p class="c142"><span class="c0">Los elementos en bloque siempre empiezan en una nueva l&iacute;nea y ocupan
+                    todo el ancho disponible, se estiran hacia la &nbsp;izquierda y la derecha tanto como pueden.
+                </span></p>
+            <p class="c199"><span class="c4">Elementos en bloque</span><span class="c0">: &lt;address&gt;
+                    &lt;article&gt; &lt;aside&gt; &lt;blockquote&gt; &lt;canvas&gt; &lt;dd&gt; &lt;div&gt; &lt;dl&gt;
+                    &lt;dt&gt; &lt;fieldset&gt; &lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt; &lt;form&gt;
+                    &lt;h1&gt;-&lt;h6&gt; &lt;header&gt; &lt;hr&gt; &lt;li&gt; &lt;main&gt; &lt;nav&gt; &lt;noscript&gt;
+                    &lt;ol&gt; &lt;p&gt; &lt;pre&gt; &lt;section&gt; &lt;table&gt; &lt;tfoot&gt; &lt;ul&gt;
+                    &lt;video&gt; </span></p>
+            <p class="c289"><span class="c0">Los elementos en l&iacute;nea, en cambio, no comienzan en una l&iacute;nea
+                    nueva y s&oacute;lo ocupan el ancho m&iacute;nimo que necesiten. Por &nbsp;lo que permiten que otros
+                    elementos se ubiquen a su lado. </span></p>
+            <p class="c270"><span class="c4">Elementos en l&iacute;nea</span><span class="c0">: &lt;a&gt; &lt;abbr&gt;
+                    &lt;acronym&gt; &lt;b&gt; &lt;bdo&gt; &lt;big&gt; &lt;br&gt; &lt;button&gt; &lt;cite&gt;
+                    &lt;code&gt; &lt;dfn&gt; &lt;em&gt; &lt;i&gt; &lt;img&gt; &lt;input&gt; &lt;kbd&gt; &lt;label&gt;
+                    &lt;map&gt; &lt;object&gt; &lt;output&gt; &lt;q&gt; &lt;samp&gt; &lt;script&gt; &lt;select&gt;
+                    &lt;small&gt; &lt;span&gt; &lt;strong&gt; &lt;sub&gt; &lt;sup&gt; &lt;textarea&gt; &lt;time&gt;
+                    &lt;tt&gt; &lt;var&gt; </span></p>
+            <p class="c116"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 423.00px; height: 197.00px;"><img
+                        alt="" src="images/image3.png"
+                        style="width: 423.00px; height: 197.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c193"><span class="c0">En el ejemplo de arriba los tres enlaces est&aacute;n escritos en etiquetas
+                    &lt;a&gt;&lt;/a&gt;, como son de l&iacute;nea se colocan uno al lado del &nbsp;otro, porque tienen
+                    lugar. </span></p>
+            <p class="c191"><span class="c0">En cambio los p&aacute;rrafos, escritos en etiquetas &lt;p&gt;&lt;/p&gt;
+                    aunque sean cortos y tengan lugar al costado, se colocan uno &nbsp;debajo del otro.</span></p>
+            <table class="c20">
+                <tr class="c24">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c6"><span class="c0">CONTENEDOR EN BLOQUE </span></p>
+                        <p class="c140"><span class="c0">&lt;div&gt; </span></p>
+                        <p class="c58"><span class="c0">El elemento div se usa como contenedor para otros
+                                &nbsp;elementos html. No tiene atributos requeridos, pero se &nbsp;pueden usar los
+                                atributos style, class y id</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c118"><span class="c1">&lt;div style=&quot;background </span></p>
+                        <p class="c62"><span class="c1">color:pink;color:purple;padding:20px;&quot;&gt; </span></p>
+                        <p class="c74"><span class="c1">&nbsp;&lt;h2&gt;Contenedor DIV&lt;/h2&gt; </span></p>
+                        <p class="c81"><span class="c1">&nbsp;&lt;p&gt;El contenedor div se usa para agrupar bloques de
+                                html, &nbsp;con el fin de organizar mejor nuestra p&aacute;gina.&lt;/p&gt; </span></p>
+                        <p class="c34"><span class="c1">&nbsp;&lt;/div&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c221">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c6"><span class="c0">CONTENEDOR EN LINEA </span></p>
+                        <p class="c140"><span class="c0">&lt;span&gt; </span></p>
+                        <p class="c43"><span class="c0">El elemento span se usa generalmente como contenedor &nbsp;para
+                                texto. Al igual que el div no tiene atributos &nbsp;requeridos y puede usar style, class
+                                y id</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;h2&gt;Contenedor SPAN&lt;/h2&gt; </span></p>
+                        <p class="c79"><span class="c0">&nbsp;&lt;p&gt;&lt;span style=&quot;color:red&quot;&gt;El
+                                contenedor span se usa &nbsp;para agrupar generalmente elementos de &nbsp;</span></p>
+                        <p class="c152"><span class="c0">&lt;b&gt;texto&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c244"><span class="c22">TABLAS &lt;table&gt; </span></p>
+            <p class="c124"><span class="c0">Las tablas se dibujan con las etiquetas &lt;table&gt;. </span></p>
+            <p class="c278"><span class="c0">En una tabla siembre vamos a encontrar filas y columnas. Las filas se
+                    definir&aacute;n con la etiqueta &lt;tr&gt; (table row) En la tabla siguiente la primera fila
+                    contiene los encabezados (table header), estos encabezados deben definirse dentro &nbsp;de etiqueras
+                    &lt;th&gt;. Luego, en las siguientes filas tenemos las celdas que contienen los datos (table data).
+                    Estas celdas se &nbsp;definen con las etiquetas &lt;td&gt; </span></p>
+            <table class="c161">
+                <tr class="c91">
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0 c52">Nombre </span></p>
+                    </td>
+                    <td class="c63" colspan="1" rowspan="1">
+                        <p class="c99"><span class="c0 c52">Apellido </span></p>
+                    </td>
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c265"><span class="c0 c52">Telefono</span></p>
+                    </td>
+                </tr>
+                <tr class="c91">
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Mar&iacute;a </span></p>
+                    </td>
+                    <td class="c63" colspan="1" rowspan="1">
+                        <p class="c106"><span class="c0">Gomez </span></p>
+                    </td>
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c104"><span class="c0">42242424</span></p>
+                    </td>
+                </tr>
+                <tr class="c91">
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Rub&eacute;n </span></p>
+                    </td>
+                    <td class="c63" colspan="1" rowspan="1">
+                        <p class="c48"><span class="c0">Sanchez </span></p>
+                    </td>
+                    <td class="c27" colspan="1" rowspan="1">
+                        <p class="c104"><span class="c0">42525252</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c2"><span class="c0">El c&oacute;digo HTML para crear esta tabla ser&iacute;a por lo tanto:
+                </span></p>
+            <p class="c21"><span class="c0">&lt;table &gt; </span></p>
+            <p class="c21"><span class="c0">&lt;tr&gt;
+                    &lt;th&gt;Nombre&lt;/th&gt;&lt;th&gt;Apellido&lt;/th&gt;&lt;th&gt;Telefono&lt;/th&gt; &lt;/tr&gt;
+                </span></p>
+            <p class="c21"><span
+                    class="c0">&lt;tr&gt;&lt;td&gt;Mar&iacute;a&lt;/td&gt;&lt;td&gt;Gomez&lt;/td&gt;&lt;td&gt;42242424&lt;/td&gt;&lt;/tr&gt;
+                </span></p>
+            <p class="c21"><span
+                    class="c0">&lt;tr&gt;&lt;td&gt;Ruben&lt;/td&gt;&lt;td&gt;Sanchez&lt;/td&gt;&lt;td&gt;42525252&lt;/td&gt;&lt;/tr&gt;
+                </span></p>
+            <p class="c21"><span class="c0">&lt;/table&gt; </span></p>
+            <table class="c20">
+                <tr class="c192">
+                    <td class="c222" colspan="1" rowspan="1">
+                        <p class="c2"><span class="c0">Elementos de tabla: </span></p>
+                        <p class="c180"><span class="c4">&lt;</span><span class="c144">table</span><span class="c4">&gt;
+                            </span><span class="c0">(tabla) </span></p>
+                        <p class="c14"><span class="c4">&lt;</span><span class="c148">tr</span><span class="c4">&gt;
+                            </span><span class="c0">(fila) </span></p>
+                        <p class="c14"><span class="c4">&lt;</span><span class="c285">td</span><span
+                                class="c4">&gt;</span><span class="c0">(dato) </span></p>
+                        <p class="c73"><span class="c4">&lt;</span><span class="c177">th</span><span
+                                class="c4">&gt;</span><span class="c0">(encabezado) </span></p>
+                        <p class="c14"><span class="c4">&lt;</span><span class="c264">caption</span><span
+                                class="c4">&gt; </span><span class="c0">(texto) </span></p>
+                        <p class="c254"><span class="c0">Propiedades CSS: </span></p>
+                        <p class="c242"><span class="c0">Border, border-collapse, padding, text-align (right,
+                                &nbsp;left, center), vertical-align (top, bottom, middle) </span></p>
+                        <p class="c114"><span class="c0">Atributos: </span></p>
+                        <p class="c253"><span class="c4">colspan </span><span class="c0">(expande la celda a varias
+                                columnas) </span><span class="c4">rowspan </span><span class="c0">(expande la celda a
+                                varias filas) </span></p>
+                        <p class="c257"><span class="c4">Id </span><span class="c0">(identificador)</span></p>
+                    </td>
+                    <td class="c182" colspan="1" rowspan="1">
+                        <p class="c154"><span class="c0">Ejemplo: </span></p>
+                        <p class="c141"><span class="c0">&lt;</span><span class="c45">table </span><span
+                                class="c0">style=&quot;border:1px solid black; border-collapse:
+                                &nbsp;collapse;margin-left:auto; margin-right:auto;&quot; &gt; </span></p>
+                        <p class="c108"><span class="c0">&nbsp;&lt;</span><span class="c166">caption</span><span
+                                class="c0">&gt;Texto en el caption de mi tabla&lt;</span><span
+                                class="c166">/caption</span><span class="c0">&gt; &lt;</span><span class="c11">tr
+                            </span><span class="c0">style=background-color:lightgreen&gt; </span></p>
+                        <p class="c229"><span class="c0">&nbsp;&lt;</span><span class="c31">th</span><span
+                                class="c0">&gt;Nombre&lt;</span><span class="c31">/th</span><span
+                                class="c0">&gt;&lt;</span><span class="c31">th</span><span
+                                class="c0">&gt;Apellido&lt;</span><span class="c31">/th</span><span
+                                class="c0">&gt;&lt;</span><span class="c31">th</span><span
+                                class="c0">&gt;Telefono&lt;</span><span class="c31">/th</span><span class="c0">&gt;
+                                &lt;</span><span class="c11">/tr</span><span class="c0">&gt; </span></p>
+                        <p class="c128"><span class="c0">&lt;</span><span class="c11">tr</span><span
+                                class="c0">&gt;&lt;</span><span class="c15">td</span><span
+                                class="c0">&gt;Mar&iacute;a&lt;</span><span class="c15">/td</span><span
+                                class="c0">&gt;&lt;</span><span class="c15">td</span><span
+                                class="c0">&gt;Gomez&lt;</span><span class="c15">/td</span><span
+                                class="c0">&gt;&lt;</span><span class="c15">td</span><span
+                                class="c0">&gt;42242424&lt;</span><span class="c15">/td</span><span
+                                class="c0">&gt;&lt;</span><span class="c11">/tr</span><span class="c0">&gt;
+                                &lt;</span><span class="c11">tr</span><span class="c0">&gt;&lt;</span><span
+                                class="c15">td</span><span class="c0">&gt;Ruben&lt;</span><span
+                                class="c15">/td</span><span class="c0">&gt;&lt;</span><span class="c15">td</span><span
+                                class="c0">&gt;Sanchez&lt;</span><span class="c15">/td</span><span
+                                class="c0">&gt;&lt;</span><span class="c15">td</span><span
+                                class="c0">&gt;42525252&lt;</span><span class="c15">/td</span><span
+                                class="c0">&gt;&lt;</span><span class="c11">/tr</span><span class="c0">&gt;
+                                &lt;</span><span class="c45">/table</span><span class="c0">&gt; </span></p>
+                        <p class="c248"><span class="c0">Si por ejemplo quisi&eacute;ramos que los encabezados nombre y
+                                &nbsp;apellido estuvieran en la misma celda podr&iacute;amos poner:
+                                &lt;table&gt;&lt;tr&gt; </span></p>
+                        <p class="c83"><span class="c0">&lt;th colspan=2&gt;Nombre y
+                                apellido&lt;/th&gt;&lt;th&gt;Telefono&lt;/th&gt;&lt;/tr&gt;
+                                &lt;tr&gt;&lt;td&gt;Mar&iacute;a&lt;/td&gt;&lt;td&gt;Gomez&lt;/td&gt;&lt;td&gt;42242424&lt;/td&gt;&lt;/tr&gt;
+                                &lt;tr&gt;&lt;td&gt;Ruben&lt;/td&gt;&lt;td&gt;Sanchez&lt;/td&gt;&lt;td&gt;42525252&lt;/td&gt;&lt;/tr&gt;
+                                &lt;/table&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c168"><span class="c0">&nbsp; </span></p>
+            <p class="c100"><span class="c0">&nbsp;</span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c275"><span class="c94">FORMULARIOS EN HTML </span></p>
+            <p class="c32"><span class="c0">Un formulario </span><span class="c4">&lt;form&gt; </span><span
+                    class="c0">se usa para recolectar informaci&oacute;n ingresada por el usuario. </span></p>
+            <p class="c198"><span class="c0">Los elementos de formulario son diferentes tipos de elementos de entrada,
+                    como campos de texto, cajas de opciones, &nbsp;botones de selecci&oacute;n, botones de env&iacute;o
+                    y otros </span></p>
+            <table class="c20">
+                <tr class="c91">
+                    <td class="c39" colspan="2" rowspan="1">
+                        <p class="c64"><span class="c4 c52">ATRIBUTOS de FORMULARIO</span></p>
+                    </td>
+                </tr>
+                <tr class="c12">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c48"><span class="c4">ACTION </span></p>
+                        <p class="c84"><span class="c0">El atributo </span><span class="c4">action </span><span
+                                class="c0">define que acci&oacute;n se llevara a cabo &nbsp;cuando se env&iacute;a el
+                                formulario. Normalmente se env&iacute;a la &nbsp;informaci&oacute;n a un servidor web
+                                cuando el usuario aprieta &nbsp;el bot&oacute;n </span><span
+                                class="c4">submit</span><span class="c0">. </span></p>
+                        <p class="c119"><span class="c0">Si omitimos el atributo </span><span
+                                class="c4">action</span><span class="c0">, la informaci&oacute;n volver&aacute; a la
+                                &nbsp;misma pagina </span></p>
+                        <p class="c78"><span class="c4">TARGET </span></p>
+                        <p class="c240"><span class="c0">El atributo target define si el resultado del env&iacute;o se
+                                abrir&aacute; &nbsp;en una nueva pesta&ntilde;a, en un marco o en la misma
+                                &nbsp;ventana. &nbsp;</span></p>
+                        <p class="c139"><span class="c0">Por defecto el valor es &ldquo;</span><span
+                                class="c4">_self</span><span class="c0">&rdquo; (se abrir&aacute; en la misma
+                                &nbsp;ventana) </span></p>
+                        <p class="c156"><span class="c0">Para hacer que el resultado se abra en una pesta&ntilde;a nueva
+                                &nbsp;debemos poner el valor &ldquo;</span><span class="c4">_blank</span><span
+                                class="c0">&rdquo; </span></p>
+                        <p class="c183"><span class="c4">METHOD </span></p>
+                        <p class="c33"><span class="c0">El atributo </span><span class="c4">method </span><span
+                                class="c0">marca la forma en que se enviara la &nbsp;informaci&oacute;n del formulario
+                            </span></p>
+                        <p class="c37"><span class="c0">Puede ser POST o GET. </span></p>
+                        <p class="c122"><span class="c4">GET</span><span class="c0">: Es el m&eacute;todo por defecto.
+                                Enviar datos con el &nbsp;m&eacute;todo GET hace que la informaci&oacute;n sea visible
+                                en el &nbsp;campo de direcci&oacute;n de la pagina </span></p>
+                        <p class="c226"><span class="c4">POST</span><span class="c0">: Siempre debemos usar POST si la
+                                informaci&oacute;n &nbsp;contiene informaci&oacute;n personal o sensible. El
+                                m&eacute;todo post &nbsp;no muestra la informaci&oacute;n </span></p>
+                        <p class="c23"><span class="c4">NAME</span><span class="c0">: </span></p>
+                        <p class="c60"><span class="c0">Cada elemento input debe tener un atributo </span><span
+                                class="c4">name </span><span class="c0">definido para poder enviar su
+                                informaci&oacute;n. </span></p>
+                        <p class="c68"><span class="c0">Si no lo ponemos, la informaci&oacute;n de ese elemento input
+                                &nbsp;no podr&aacute; ser enviada.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;form action=&rdquo;/mipagina.php&rdquo;&gt; </span></p>
+                        <p class="c261"><span class="c0">Aqu&iacute; la informaci&oacute;n se enviara a la p&aacute;gina
+                                &ldquo;mipagina.php&rdquo;. &nbsp;En esa p&aacute;gina habr&aacute; un c&oacute;digo que
+                                manipule la &nbsp;informaci&oacute;n del formulario </span></p>
+                        <p class="c107"><span class="c0">&lt;form action=&quot;/mipagina.php&quot;
+                                target=&quot;_blank&quot;&gt; </span></p>
+                        <p class="c172"><span class="c0">&lt;form action=&rdquo;/mipagina.php&rdquo; method=GET&gt;
+                            </span></p>
+                        <p class="c266"><span class="c0">&lt;form action=&rdquo;/mipagina.php&rdquo; method=POST&gt;
+                                &lt;input type=&rdquo;text&rdquo; name=&rdquo;nombre&rdquo;&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c104"><span class="c0">&nbsp;</span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo </span></p>
+            <p class="c130"><span class="c0">&nbsp;</span></p>
+            <table class="c20">
+                <tr class="c262">
+                    <td class="c39" colspan="2" rowspan="1">
+                        <p class="c64"><span class="c4 c52">ELEMENTOS de FORMULARIO</span></p>
+                    </td>
+                </tr>
+                <tr class="c147">
+                    <td class="c39" colspan="2" rowspan="1">
+                        <p class="c16"><span class="c4">&lt;input&gt; </span></p>
+                        <p class="c26"><span class="c0">Es el elemento m&aacute;s importante del formulario. Dependiendo
+                                de su atributo type se ver&aacute; de diferentes maneras.</span></p>
+                    </td>
+                </tr>
+                <tr class="c238">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c80"><span class="c4">button: </span><span class="c0">Es un bot&oacute;n que
+                                generalmente active un c&oacute;digo en JavaScript </span></p>
+                        <p class="c44"><span class="c4">checkbox: </span><span class="c0">Permite que el usuario
+                                seleccione de entre &nbsp;varias opciones las que quiera. </span></p>
+                        <p class="c120"><span class="c4">color: </span><span class="c0">Muestra una paleta para
+                                seleccionar un color </span></p>
+                        <p class="c196"><span class="c4">date: </span><span class="c0">Dependiendo del navegador se
+                                mostrar&aacute; un &nbsp;calendario para seleccionar una fecha. Podes usar los
+                                &nbsp;atributos </span><span class="c4">max </span><span class="c0">y </span><span
+                                class="c4">min </span><span class="c0">para limitar las opciones </span></p>
+                        <p class="c120"><span class="c4">datetime: </span><span class="c0">Permite seleccionar fecha y
+                                hora </span></p>
+                        <p class="c66"><span class="c4">email: </span><span class="c0">ingreso de email, suele ser
+                                validado por navegador </span></p>
+                        <p class="c279"><span class="c4">file: </span><span class="c0">Permite adjuntar un archive,
+                                agrega un bot&oacute;n de &nbsp;b&uacute;squeda </span></p>
+                        <p class="c174"><span class="c4">hidden: </span><span class="c0">Es un campo escondido al
+                                usuario que deja incluir &nbsp;informaci&oacute;n cuando enviamos formulario </span></p>
+                        <p class="c237"><span class="c4">image: </span><span class="c0">Define una imagen como
+                                bot&oacute;n submit. </span><span class="c4">month: </span><span class="c0">Permite
+                                seleccionar un mes del a&ntilde;o </span></p>
+                        <p class="c207"><span class="c4">number: </span><span class="c0">Define un campo
+                                num&eacute;rico, se puede poner &nbsp;restricciones. </span></p>
+                        <p class="c18"><span class="c4">password: </span><span class="c0">campo para ingreso de
+                                contrase&ntilde;a, al escribir &nbsp;se muestra el texto en forma de puntos </span></p>
+                        <p class="c13"><span class="c4">radio: </span><span class="c0">son botones circulares que dejan
+                                que el usuario &nbsp;seleccione solamente una de varias opciones </span></p>
+                        <p class="c56"><span class="c4">range: </span><span class="c0">Permite seleccionar desde un
+                                rango </span></p>
+                        <p class="c220"><span class="c4">reset: </span><span class="c0">Es un bot&oacute;n de reseteo,
+                                que devolver&aacute; todos los &nbsp;valores ingresados al formulario a su valor por
+                                defecto </span></p>
+                        <p class="c120"><span class="c4">search: </span><span class="c0">campo de texto para
+                                b&uacute;squeda </span></p>
+                        <p class="c245"><span class="c4">submit: </span><span class="c0">es un bot&oacute;n para
+                                env&iacute;o de datos, generalmente &nbsp;estos datos son recibidos por una
+                                p&aacute;gina del servidor &nbsp;(especificada en el </span><span class="c4">action
+                            </span><span class="c0">del formulario). </span></p>
+                        <p class="c53"><span class="c4">tel: </span><span class="c0">se usa para campos que
+                                contendr&aacute;n un nro de &nbsp;tel&eacute;fono. Se puede restringir con atributo
+                            </span><span class="c4">pattern</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c171"><span class="c97">&lt;input type=&quot;button&quot; value=&quot;Mi boton&quot;
+                                onclick=&quot;alert(&#39;Hola 5B!!! Aprendan JS&rsquo;);&quot;&gt; </span></p>
+                        <p class="c145"><span class="c0">&lt;</span><span class="c212">input type=&quot;checkbox&quot;
+                                name=lechuga value=lechuga&gt;Lechuga&lt;br&gt; &lt;input type=&quot;checkbox&quot;
+                                name=tomate value=tomate&gt;Tomate&lt;br&gt; &lt;input type=&quot;checkbox&quot;
+                                name=huevo value=huevo&gt;Huevo&lt;br&gt; </span></p>
+                        <p class="c247"><span class="c0">elija color: &lt;input type=&quot;color&quot;
+                                name=&quot;colorelegido&quot;&gt; &lt;input type=&quot;date&quot;
+                                name=&quot;nacimiento&quot;&gt; </span></p>
+                        <p class="c138"><span class="c0">&lt;input type=&quot;datetime-local&quot;
+                                name=&quot;fechaingreso&quot;&gt; &lt;input type=&quot;email&quot;
+                                name=&quot;correo&quot;&gt; </span></p>
+                        <p class="c9"><span class="c0">&nbsp;Seleccione archivo: &lt;input type=&quot;file&quot;
+                                name=&quot;archivo&quot;&gt; </span></p>
+                        <p class="c35"><span class="c97">&lt;input type=&quot;hidden&quot; id=&quot;shh&quot;
+                                name=&quot;shh&quot; value=&quot;nuncaloveras&quot;&gt; </span></p>
+                        <p class="c233"><span class="c1">&lt;input type=image src=&quot;imagenes/descarga.jpg&quot;
+                                alt=enviar&gt; </span><span class="c0">&lt;input type=&quot;month&quot;
+                                name=&quot;mesDeIngreso&quot;&gt; &lt;input type=&quot;number&quot;
+                                name=&quot;edad&quot; min=&quot;1&quot; max=&quot;99&quot;&gt; </span></p>
+                        <p class="c134"><span class="c0">&lt;input type=&quot;password&quot;
+                                name=&quot;contrasena&quot;&gt; </span></p>
+                        <p class="c227"><span class="c97">&lt;input type=&quot;radio&quot; name=&quot;genero&quot;
+                                value=&quot;m&quot; checked&gt; Hombre&lt;br&gt; &lt;input type=&quot;radio&quot;
+                                name=&quot;genero&quot; value=&quot;f&rdquo;&gt; Mujer&lt;br&gt; </span></p>
+                        <p class="c282"><span class="c212">&lt;input type=&quot;range&quot;
+                                name=&quot;satisfaccion&quot; min=&quot;0&quot; max=&quot;100&quot;
+                                step=&quot;10&quot;&gt; </span><span class="c0">&lt;input type=&quot;reset&quot;&gt;
+                            </span></p>
+                        <p class="c179"><span class="c0">&lt;input type=&quot;search&quot; name=&quot;busqueda&quot;&gt;
+                            </span></p>
+                        <p class="c36"><span class="c0">&lt;input type=&quot;submit&quot; value=&quot;Enviar&quot;&gt;
+                            </span></p>
+                        <p class="c126"><span class="c0">&lt;input type=&quot;tel&quot; name=&quot;telefono&quot;
+                                &gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c55"><span class="c4">Dise&ntilde;o Web </span><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                        alt="" src="images/image1.png"
+                        style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                        title=""></span></p>
+            <p class="c26"><span class="c0">Prof. Paula Giaimo</span></p>
+            <table class="c20">
+                <tr class="c185">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c48"><span class="c4">text: </span><span class="c0">campo de ingreso de texto de una
+                                l&iacute;nea </span></p>
+                        <p class="c200"><span class="c4">time: </span><span class="c0">Permite ingresar una hora </span>
+                        </p>
+                        <p class="c274"><span class="c4">url: </span><span class="c0">se usa para ingresar una
+                                direcci&oacute;n web, dependiendo &nbsp;del navegador, puede ser validada </span></p>
+                        <p class="c123"><span class="c4">week: </span><span class="c0">permite seleccionar una semana
+                                del a&ntilde;o</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;input type=&rdquo;text&rdquo; name=&rdquo;Nombre&rdquo;&gt;
+                            </span></p>
+                        <p class="c277"><span class="c0">&lt;input type=&quot;time&quot; name=&quot;hora&quot;&gt;
+                            </span></p>
+                        <p class="c71"><span class="c0">&lt;input type=&quot;url&quot; name=&quot;paginaweb&quot;&gt;
+                            </span></p>
+                        <p class="c76"><span class="c0">&lt;input type=&quot;week&quot;
+                                name=&quot;semana&quot;&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c284">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c4">&lt;select&gt; </span></p>
+                        <p class="c243"><span class="c0">El elemento </span><span class="c4">&lt;select&gt; </span><span
+                                class="c0">genera una lista desplegable, cada &nbsp;opci&oacute;n debe encerrarse entre
+                                etiquetas </span><span class="c4">&lt;option&gt; </span><span class="c0">Por defecto
+                                aparece como seleccionado el primer &iacute;tem de &nbsp;la lista, para cambiarlo
+                                podemos agregar el atributo &nbsp;</span><span class="c4">selected</span><span
+                                class="c0">. </span></p>
+                        <p class="c105"><span class="c0">Atributo </span><span class="c4">size</span><span class="c0">:
+                            </span></p>
+                        <p class="c178"><span class="c0">Sirve para especificar la cantidad de elementos que
+                                ser&aacute;n &nbsp;visibles a la vez </span></p>
+                        <p class="c105"><span class="c0">Atributo </span><span class="c4">multiple</span><span
+                                class="c0">: </span></p>
+                        <p class="c140"><span class="c0">Sirve para permitir seleccionar m&aacute;s de una
+                                opci&oacute;n</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c0">&lt;select name=&quot;transporte&quot;&gt; </span></p>
+                        <p class="c96"><span class="c0">&nbsp;&lt;option value=&quot;tren&quot;&gt;Tren&lt;/option&gt;
+                            </span></p>
+                        <p class="c258"><span class="c0">&nbsp;&lt;option
+                                value=&quot;auto&quot;&gt;Autom&oacute;vil&lt;/option&gt; &nbsp;&lt;option
+                                value=&quot;bondi&quot; selected&gt;Colectivo&lt;/option&gt; &nbsp;&lt;option
+                                value=&quot;subte&quot;&gt;Subte&lt;/option&gt; </span></p>
+                        <p class="c34"><span class="c0">&nbsp;&lt;/select&gt; &nbsp;</span></p>
+                        <p class="c76"><span class="c0">&lt;select name=&quot;transporte&quot; size=2 multiple&gt;
+                            </span></p>
+                        <p class="c96"><span class="c0">&nbsp;&lt;option value=&quot;tren&quot;&gt;Tren&lt;/option&gt;
+                            </span></p>
+                        <p class="c281"><span class="c0">&nbsp;&lt;option
+                                value=&quot;auto&quot;&gt;Autom&oacute;vil&lt;/option&gt; &nbsp;&lt;option
+                                value=&quot;bondi&quot; selected&gt;Colectivo&lt;/option&gt; &nbsp;&lt;option
+                                value=&quot;subte&quot;&gt;Subte&lt;/option&gt; </span></p>
+                        <p class="c5"><span class="c0">&nbsp;&lt;/select&gt; </span></p>
+                    </td>
+                </tr>
+                <tr class="c24">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c4">&lt;textarea&gt; </span></p>
+                        <p class="c86"><span class="c0">El elemento textarea define un &aacute;rea de texto con
+                                &nbsp;m&uacute;ltiples l&iacute;neas. </span></p>
+                        <p class="c72"><span class="c0">El atributo </span><span class="c4">rows </span><span
+                                class="c0">define la cantidad de filas visibles. El atributo </span><span
+                                class="c4">cols </span><span class="c0">define el ancho visible.</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c223"><span class="c0">&lt;textarea name=&quot;untextarea&quot; rows=&quot;10&quot;
+                                cols=&quot;40&quot;&gt; &nbsp;Este es un ejemplo de &aacute;rea de texto </span></p>
+                        <p class="c34"><span class="c0">&nbsp;&lt;/textarea&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c169">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c4">&lt;datalist&gt; </span></p>
+                        <p class="c82"><span class="c0">El elemento </span><span class="c4">datalist </span><span
+                                class="c0">define una lista de opciones &nbsp;predefinidas para un elemento input.
+                            </span></p>
+                        <p class="c225"><span class="c0">El usuario ve una lista desplegable con las opciones que
+                                &nbsp;puede seleccionar. </span></p>
+                        <p class="c234"><span class="c0">El atributo </span><span class="c4">list </span><span
+                                class="c0">del elemento </span><span class="c4">input </span><span class="c0">debe hacer
+                                referencia al &nbsp;atributo </span><span class="c4">id </span><span class="c0">del
+                                elemento </span><span class="c4">datalist</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c1">&lt;form action=&quot;/action_page.php&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;input list=&quot;browsers&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;datalist id=&quot;browsers&quot;&gt; </span></p>
+                        <p class="c74"><span class="c1">&nbsp;&lt;option value=&quot;Internet Explorer&quot;&gt; </span>
+                        </p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;option value=&quot;Firefox&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;option value=&quot;Chrome&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;option value=&quot;Opera&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;option value=&quot;Safari&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;/datalist&gt; </span></p>
+                        <p class="c28"><span class="c1">&lt;/form&gt;</span></p>
+                    </td>
+                </tr>
+                <tr class="c146">
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c4">&lt;label&gt; </span></p>
+                        <p class="c103"><span class="c0">Es una etiqueta para un elemento </span><span
+                                class="c4">input</span><span class="c0">. Cuando el &nbsp;usuario clickea sobre una
+                                etiqueta es como si lo hiciera &nbsp;sobre el elemento. </span></p>
+                        <p class="c246"><span class="c0">Para vincular el elemento con su </span><span class="c4">label
+                            </span><span class="c0">debemos o bien &nbsp;declarar el atributo </span><span
+                                class="c4">for </span><span class="c0">igual que el id del elemento, o &nbsp;poner el
+                                elemento adentro de la etiqueta </span><span class="c4">label</span></p>
+                    </td>
+                    <td class="c10" colspan="1" rowspan="1">
+                        <p class="c16"><span class="c1">&lt;form action=&quot;/miphp.php&quot;&gt; </span></p>
+                        <p class="c5"><span class="c1">&nbsp;&lt;label for=&quot;hombre&quot;&gt;Hombre&lt;/label&gt;
+                            </span></p>
+                        <p class="c61"><span class="c1">&nbsp;</span><span class="c97">&lt;input type=&quot;radio&quot;
+                                name=&quot;gen&quot; id=&quot;hm&quot; value=&quot;Hombre&quot;&gt;&lt;br&gt;
+                                &nbsp;</span><span class="c1">&lt;label for=&quot;mujer&quot;&gt;Mujer&lt;/label&gt;
+                            </span></p>
+                        <p class="c133"><span class="c1">&nbsp;</span><span class="c97">&lt;input type=&quot;radio&quot;
+                                name=&quot;gen&quot; id=&quot;mj&quot; value=&quot;Mujer&quot;&gt;&lt;br&gt;
+                                &nbsp;</span><span class="c1">&lt;label for=&quot;otro&quot;&gt;Otro&lt;/label&gt;
+                            </span></p>
+                        <p class="c219"><span class="c1">&nbsp;</span><span class="c97">&lt;input type=&quot;radio&quot;
+                                name=&quot;gen&quot; id=&quot;ot&quot; value=&quot;Otro&quot;&gt;&lt;br&gt;&lt;br&gt;
+                                &nbsp;</span><span class="c1">&lt;input type=&quot;submit&quot;
+                                value=&quot;Submit&quot;&gt; </span></p>
+                        <p class="c96"><span class="c1">&nbsp;&lt;/form&gt;</span></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="c3"><span class="c19"></span></p>
+            <p class="c3"><span class="c19"></span></p>
+        </body>
+
+        
+
+
+    </main>
+
+    <footer>
+        <p>© 2025 InstiEducación</p>
+    </footer>
 </body>
+
 </html>
