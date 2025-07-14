@@ -1,26 +1,2372 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documentos Comerciales</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstiEducación · CSS</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header>
-    <h1>InstiEducación - HTML</h1>
-    <nav>
-      <a href="index.html">Volver al inicio</a>
+    <header>
+        <h1>CSS (Cascading Style Sheets)</h1>
+        <nav>
+      <a href="index.html">Inicio</a>
+      <a href="materia2.html">CSS</a>
     </nav>
   </header>
 
-  <main>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apuntes de HTML y CSS</title>
-    <link rel="stylesheet" href="estilos.css">
+        <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        @import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLa_DziUyathawBQBNSDnCLMJbpxNowYs0kASrTKpMJA70D-Tn3q9i22VTsfaSDUpPg);
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c3 {
+            border-right-style: solid;
+            padding: 5pt 5pt 5pt 5pt;
+            border-bottom-color: #000000;
+            border-top-width: 1pt;
+            border-right-width: 1pt;
+            border-left-color: #000000;
+            vertical-align: top;
+            border-right-color: #000000;
+            border-left-width: 1pt;
+            border-top-style: solid;
+            border-left-style: solid;
+            border-bottom-width: 1pt;
+            width: 273.7pt;
+            border-top-color: #000000;
+            border-bottom-style: solid
+        }
+
+        .c118 {
+            -webkit-text-decoration-skip: none;
+            color: #0000ff;
+            font-weight: 400;
+            text-decoration: underline;
+            vertical-align: baseline;
+            text-decoration-skip-ink: none;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c2 {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c40 {
+            background-color: #ffffff;
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c12 {
+            background-color: #ffffff;
+            color: #a52a2a;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c27 {
+            background-color: #1e1e1e;
+            color: #ce9178;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c6 {
+            background-color: #ffffff;
+            color: #ff0000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c88 {
+            background-color: #1e1e1e;
+            color: #569cd6;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c1 {
+            background-color: #1e1e1e;
+            color: #9cdcfe;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c10 {
+            background-color: #1e1e1e;
+            color: #d7ba7d;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c53 {
+            background-color: #ffffff;
+            color: #0000cd;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c69 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c173 {
+            margin-left: 6.6pt;
+            padding-top: 0.6pt;
+            text-indent: -0.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 35.1pt
+        }
+
+        .c16 {
+            color: #d4d4d4;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.6pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c92 {
+            margin-left: 5.9pt;
+            padding-top: 0.6pt;
+            text-indent: -0.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 22pt
+        }
+
+        .c86 {
+            margin-left: 6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140876770019531;
+            text-align: left;
+            margin-right: 22.1pt
+        }
+
+        .c0 {
+            margin-left: 6.7pt;
+            padding-top: 26.2pt;
+            text-indent: -0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 390.6pt
+        }
+
+        .c169 {
+            color: #0000ff;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c179 {
+            margin-left: 42pt;
+            padding-top: 28.4pt;
+            text-indent: -36.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.9217865467071533;
+            text-align: left;
+            margin-right: 195.2pt
+        }
+
+        .c190 {
+            margin-left: 6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 21.6pt
+        }
+
+        .c184 {
+            margin-left: 6.6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 19.3pt
+        }
+
+        .c138 {
+            margin-left: 6.6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 10.4pt
+        }
+
+        .c170 {
+            margin-left: 6.6pt;
+            padding-top: 0.4pt;
+            text-indent: -0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0163499116897583;
+            text-align: left;
+            margin-right: 31pt
+        }
+
+        .c131 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 16.1pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c100 {
+            margin-left: 6.6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.014083981513977;
+            text-align: left;
+            margin-right: 18.1pt
+        }
+
+        .c83 {
+            color: #76923c;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 16.1pt;
+            font-family: "Century Gothic";
+            font-style: normal
+        }
+
+        .c21 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 9.1pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c49 {
+            margin-left: 6.3pt;
+            padding-top: 13.9pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 21.4pt
+        }
+
+        .c161 {
+            margin-left: 6.6pt;
+            padding-top: 14pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0163499116897583;
+            text-align: left;
+            margin-right: 4.8pt
+        }
+
+        .c78 {
+            margin-left: 6.3pt;
+            padding-top: 0.4pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 27.2pt
+        }
+
+        .c59 {
+            color: #76923c;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 13.9pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c99 {
+            color: #4f6228;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 13.9pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c132 {
+            color: #1f497d;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c182 {
+            margin-left: 6.3pt;
+            padding-top: 6.6pt;
+            text-indent: -0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.014087200164795;
+            text-align: left;
+            margin-right: 3.8pt
+        }
+
+        .c128 {
+            margin-left: 6.3pt;
+            padding-top: 13.8pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014088749885559;
+            text-align: left;
+            margin-right: 26.2pt
+        }
+
+        .c60 {
+            margin-left: 6.7pt;
+            padding-top: 2.5pt;
+            text-indent: -0.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.1770647764205933;
+            text-align: left;
+            margin-right: 62.2pt
+        }
+
+        .c178 {
+            margin-left: 6.7pt;
+            padding-top: 2.5pt;
+            text-indent: -0.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.1785752773284912;
+            text-align: left;
+            margin-right: 65.2pt
+        }
+
+        .c93 {
+            color: #943634;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 13.9pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c31 {
+            margin-left: 6.3pt;
+            padding-top: 0.6pt;
+            text-indent: -0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 10.9pt
+        }
+
+        .c20 {
+            color: #943634;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c24 {
+            margin-left: 6.2pt;
+            padding-top: 0.4pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.014389157295227;
+            text-align: left;
+            margin-right: 3.5pt
+        }
+
+        .c97 {
+            margin-left: 6.4pt;
+            padding-top: 0.6pt;
+            text-indent: -0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 28pt
+        }
+
+        .c39 {
+            color: #7030a0;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c47 {
+            margin-left: 6.7pt;
+            padding-top: 6.6pt;
+            text-indent: -0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.4683116674423218;
+            text-align: left;
+            margin-right: 38.9pt
+        }
+
+        .c90 {
+            margin-left: 6.2pt;
+            padding-top: 0.6pt;
+            text-indent: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140870809555054;
+            text-align: left;
+            margin-right: 6.9pt
+        }
+
+        .c187 {
+            margin-left: 6.6pt;
+            padding-top: 4.7pt;
+            text-indent: -0.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.2676091194152832;
+            text-align: left;
+            margin-right: 78pt
+        }
+
+        .c37 {
+            color: #7030a0;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 13.9pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c76 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Consolas";
+            font-style: normal
+        }
+
+        .c195 {
+            margin-left: 6.2pt;
+            padding-top: 0.6pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0107660293579102;
+            text-align: left;
+            margin-right: 4.4pt
+        }
+
+        .c52 {
+            margin-left: 6pt;
+            padding-top: 0.6pt;
+            text-indent: 0.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0080496072769165;
+            text-align: left;
+            margin-right: 10.2pt
+        }
+
+        .c38 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c130 {
+            margin-left: 6pt;
+            padding-top: 7.8pt;
+            text-indent: 0.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140845775604248;
+            text-align: left;
+            margin-right: 5.6pt
+        }
+
+        .c84 {
+            margin-left: 6.3pt;
+            padding-top: 13.8pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0155971050262451;
+            text-align: left;
+            margin-right: 12.6pt
+        }
+
+        .c126 {
+            margin-left: 6.1pt;
+            padding-top: 0.6pt;
+            text-indent: -0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 44.2pt
+        }
+
+        .c115 {
+            margin-left: 6.5pt;
+            padding-top: 0.4pt;
+            text-indent: -0.3pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140876770019531;
+            text-align: left;
+            margin-right: 6pt
+        }
+
+        .c111 {
+            margin-left: 6.3pt;
+            padding-top: 0.6pt;
+            text-indent: -0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.014841914176941;
+            text-align: left;
+            margin-right: 24pt
+        }
+
+        .c167 {
+            margin-left: 6.6pt;
+            padding-top: 0.3pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140876770019531;
+            text-align: left;
+            margin-right: 36pt
+        }
+
+        .c157 {
+            margin-left: 6.2pt;
+            padding-top: 0.4pt;
+            text-indent: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 51.3pt
+        }
+
+        .c137 {
+            margin-left: 0.5pt;
+            padding-top: 26.2pt;
+            text-indent: -0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 118.4pt
+        }
+
+        .c74 {
+            margin-left: 6.2pt;
+            padding-top: 0.4pt;
+            text-indent: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 32.7pt
+        }
+
+        .c9 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10.1pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c4 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c120 {
+            color: #4f6228;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 18pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c50 {
+            margin-left: 6.3pt;
+            padding-top: 0.6pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140851736068726;
+            text-align: left;
+            margin-right: 11.2pt
+        }
+
+        .c48 {
+            margin-left: 6.4pt;
+            padding-top: 0.6pt;
+            text-indent: -0.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 18.3pt
+        }
+
+        .c65 {
+            color: #1f497d;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 13.9pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c139 {
+            margin-left: 6.3pt;
+            padding-top: 0.6pt;
+            text-indent: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 27pt
+        }
+
+        .c174 {
+            margin-left: 6.6pt;
+            padding-top: 0.4pt;
+            text-indent: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140892267227173;
+            text-align: left;
+            margin-right: 34.6pt
+        }
+
+        .c125 {
+            margin-left: 6.6pt;
+            padding-top: 38pt;
+            text-indent: -0.1pt;
+            padding-bottom: 0pt;
+            line-height: 3.207505226135254;
+            text-align: left;
+            margin-right: 132.8pt
+        }
+
+        .c106 {
+            margin-left: 6.1pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0140876770019531;
+            text-align: left;
+            margin-right: 23.5pt
+        }
+
+        .c163 {
+            margin-left: 5.8pt;
+            padding-top: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 0.994147002696991;
+            text-align: left;
+            margin-right: 49.8pt
+        }
+
+        .c142 {
+            margin-left: 5.8pt;
+            padding-top: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0115031003952026;
+            text-align: left;
+            margin-right: 49.8pt
+        }
+
+        .c72 {
+            margin-left: 6.7pt;
+            padding-top: 13.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.593567967414856;
+            text-align: left;
+            margin-right: 50.7pt
+        }
+
+        .c177 {
+            margin-left: 6.2pt;
+            padding-top: 6.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 15.3pt
+        }
+
+        .c108 {
+            margin-left: 6.7pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.014086365699768;
+            text-align: left;
+            margin-right: 12.8pt
+        }
+
+        .c155 {
+            margin-left: 6.2pt;
+            padding-top: 8pt;
+            padding-bottom: 0pt;
+            line-height: 1.014841914176941;
+            text-align: left;
+            margin-right: 11.7pt
+        }
+
+        .c165 {
+            margin-left: 5.8pt;
+            padding-top: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.011500358581543;
+            text-align: left;
+            margin-right: 49.8pt
+        }
+
+        .c34 {
+            padding-top: 7.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 1.4pt
+        }
+
+        .c183 {
+            margin-left: 6.6pt;
+            padding-top: 8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c23 {
+            margin-left: 8.6pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c80 {
+            margin-left: 6pt;
+            padding-top: 27.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c119 {
+            margin-left: 6.7pt;
+            padding-top: 40.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c145 {
+            margin-left: 6.6pt;
+            padding-top: 3.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c77 {
+            margin-left: 5.9pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c158 {
+            margin-left: 6.7pt;
+            padding-top: 13.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c7 {
+            margin-left: 6.7pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c148 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 1.4pt
+        }
+
+        .c191 {
+            margin-left: 6.6pt;
+            padding-top: 27.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c124 {
+            margin-left: 6.4pt;
+            padding-top: 0.3pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c102 {
+            margin-left: 6.5pt;
+            padding-top: 13.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c55 {
+            margin-left: 6pt;
+            padding-top: 2.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c22 {
+            margin-left: 5.9pt;
+            padding-top: 13.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c5 {
+            margin-left: 6.7pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c116 {
+            margin-left: 5.8pt;
+            padding-top: 10.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c141 {
+            margin-left: 6.2pt;
+            padding-top: 40.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c14 {
+            margin-left: 41.9pt;
+            padding-top: 1.7pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c45 {
+            margin-left: 6.5pt;
+            padding-top: 40.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c152 {
+            margin-left: 5.9pt;
+            padding-top: 14pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c11 {
+            margin-left: 6.6pt;
+            padding-top: 14pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c81 {
+            margin-left: 6.1pt;
+            padding-top: 20.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c89 {
+            margin-left: 6.7pt;
+            padding-top: 38pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c66 {
+            margin-left: 6.5pt;
+            padding-top: 27.3pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c185 {
+            margin-left: 40.7pt;
+            padding-top: 2.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c153 {
+            margin-left: 6.3pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c70 {
+            margin-left: 6pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c101 {
+            margin-left: 18.5pt;
+            padding-top: 2.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c104 {
+            margin-left: 29.2pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c135 {
+            margin-left: 6.3pt;
+            padding-top: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c98 {
+            margin-left: 6.4pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c156 {
+            margin-left: 6pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c71 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 267pt
+        }
+
+        .c103 {
+            margin-left: 6.5pt;
+            padding-top: 22.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c149 {
+            margin-left: 6.6pt;
+            padding-top: 13.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c41 {
+            margin-left: 6.2pt;
+            padding-top: 12.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c75 {
+            margin-left: 6.6pt;
+            padding-top: 27pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c186 {
+            margin-left: 13.6pt;
+            padding-top: 2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c150 {
+            margin-left: 6.1pt;
+            padding-top: 19.3pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c17 {
+            margin-left: 6.6pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c160 {
+            margin-left: 6.7pt;
+            padding-top: 46.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c175 {
+            margin-left: 41.1pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c127 {
+            padding-top: 8.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 251.7pt
+        }
+
+        .c35 {
+            margin-left: 11.8pt;
+            padding-top: 1.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c91 {
+            margin-left: 41.9pt;
+            padding-top: 11.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c192 {
+            margin-left: 6.5pt;
+            padding-top: 13.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c44 {
+            margin-left: 6pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c28 {
+            margin-left: 5.8pt;
+            padding-top: 0.3pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c62 {
+            margin-left: 5.8pt;
+            padding-top: 0.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c143 {
+            padding-top: 14.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 96.1pt
+        }
+
+        .c87 {
+            padding-top: 26.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 208.6pt
+        }
+
+        .c164 {
+            margin-left: 41.2pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c29 {
+            margin-left: 6.1pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c133 {
+            margin-left: 5.8pt;
+            padding-top: 38pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c94 {
+            margin-left: 29.2pt;
+            padding-top: 2.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c79 {
+            margin-left: 42.3pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c61 {
+            margin-left: 42.3pt;
+            padding-top: 2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c26 {
+            margin-left: 6.4pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c176 {
+            margin-left: 6.3pt;
+            padding-top: 0.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c32 {
+            margin-left: 6.2pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c105 {
+            padding-top: 35pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 1.4pt
+        }
+
+        .c189 {
+            margin-left: 6.6pt;
+            padding-top: 121.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c146 {
+            margin-left: 6.9pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c8 {
+            margin-left: 6.3pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c147 {
+            margin-left: 6.6pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c13 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c46 {
+            margin-left: 6.1pt;
+            padding-top: 6.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c15 {
+            margin-left: 5.8pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c43 {
+            margin-left: 6.7pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c63 {
+            margin-left: 6.5pt;
+            padding-top: 0.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c113 {
+            margin-left: 6.4pt;
+            padding-top: 6.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c56 {
+            margin-left: 18.5pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c129 {
+            margin-left: 18.5pt;
+            padding-top: 1.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c180 {
+            margin-left: 6.5pt;
+            padding-top: 55.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c30 {
+            margin-left: 6.7pt;
+            padding-top: 2.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c188 {
+            padding-top: 9.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 270.3pt
+        }
+
+        .c67 {
+            margin-left: 6.2pt;
+            padding-top: 0.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c64 {
+            margin-left: 6.5pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c162 {
+            margin-left: 6.6pt;
+            padding-top: 5.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c112 {
+            margin-left: 6.8pt;
+            padding-top: 12.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c168 {
+            margin-left: 6.1pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c123 {
+            margin-left: 29.6pt;
+            padding-top: 1.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c42 {
+            margin-left: 41.1pt;
+            padding-top: 2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c193 {
+            margin-left: 6.6pt;
+            padding-top: 4.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c82 {
+            padding-top: 13.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 159.1pt
+        }
+
+        .c121 {
+            margin-left: 6.5pt;
+            padding-top: 27.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c33 {
+            margin-left: 6.5pt;
+            padding-top: 14.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c96 {
+            margin-left: 6.7pt;
+            padding-top: 6.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c95 {
+            margin-left: 5.8pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c19 {
+            margin-left: 6.3pt;
+            padding-top: 0.4pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c36 {
+            margin-left: 6.2pt;
+            padding-top: 26.2pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c114 {
+            margin-left: 6pt;
+            padding-top: 40.9pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c73 {
+            padding-top: 26.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right;
+            margin-right: 194.8pt
+        }
+
+        .c122 {
+            margin-left: 41.2pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c117 {
+            margin-left: 5.8pt;
+            padding-top: 13.8pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c57 {
+            margin-left: 6pt;
+            padding-top: 14pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c25 {
+            margin-left: 6pt;
+            padding-top: 2.5pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c51 {
+            margin-left: 6.6pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c136 {
+            margin-left: 6.1pt;
+            padding-top: 10.1pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c58 {
+            margin-left: 42pt;
+            padding-top: 12.6pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: left
+        }
+
+        .c68 {
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin-right: auto
+        }
+
+        .c159 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            text-align: right
+        }
+
+        .c107 {
+            background-color: #ffffff;
+            max-width: 547.4pt;
+            padding: 8.4pt 34.3pt 51.6pt 30.2pt
+        }
+
+        .c194 {
+            height: 133.5pt
+        }
+
+        .c151 {
+            height: 231.5pt
+        }
+
+        .c54 {
+            height: 40.8pt
+        }
+
+        .c166 {
+            height: 128.9pt
+        }
+
+        .c140 {
+            height: 63.9pt
+        }
+
+        .c134 {
+            height: 54.2pt
+        }
+
+        .c154 {
+            height: 476.8pt
+        }
+
+        .c110 {
+            height: 84.7pt
+        }
+
+        .c85 {
+            height: 515.7pt
+        }
+
+        .c181 {
+            margin-right: 1.8pt
+        }
+
+        .c18 {
+            height: 188.7pt
+        }
+
+        .c172 {
+            margin-right: 2pt
+        }
+
+        .c109 {
+            height: 117.9pt
+        }
+
+        .c144 {
+            height: 645.3pt
+        }
+
+        .c171 {
+            margin-right: 1.9pt
+        }
+
+        .title {
+            padding-top: 24pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 36pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 18pt;
+            color: #666666;
+            font-size: 24pt;
+            padding-bottom: 4pt;
+            font-family: "Georgia";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 24pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 24pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 18pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 14pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 12pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 2pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 11pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 11pt;
+            padding-bottom: 2pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 10pt;
+            padding-bottom: 2pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
 </head>
+
+<body class="c107 doc-content">
+    <p class="c36"><span class="c38">CSS 1 - Material Complementario </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c5"><span class="c4">Prof. Paula Giaimo </span></p>
+    <p class="c71"><span class="c4">&nbsp; </span></p>
+    <p class="c188"><span class="c4">&nbsp; </span></p>
+    <p class="c127"><span class="c120">CSS &nbsp;</span></p>
+    <p class="c143"><span class="c99">Cascading Style Sheets (Hojas de estilo en cascada) </span></p>
+    <p class="c119"><span class="c4">Las hojas de estilo determinan la forma en que se ver&aacute;n los elementos HTML.
+        </span></p>
+    <p class="c41"><span class="c4">Se puede usar CSS de 3 maneras: en l&iacute;nea, interno y externo.</span></p>
+    <table class="c68">
+        <tr class="c134">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">EN L&Iacute;NEA: </span><span class="c4">(no recomendable) </span></p>
+                <p class="c5"><span class="c4">Usando el atrubuto style en los elementos html</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c168"><span class="c4">&lt;h1 style=&quot;color:blue;&quot;&gt;Este es un encabezado
+                        azul&lt;/h1&gt;</span></p>
+            </td>
+        </tr>
+        <tr class="c110">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">INTERNO: &nbsp;</span></p>
+                <p class="c100"><span class="c4">Usando un elemento &lt;style&gt; en la secci&oacute;n &lt;head&gt; de
+                        la &nbsp;pagina.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c168"><span class="c4">&lt;style&gt; </span></p>
+                <p class="c17"><span class="c4">h1 { </span></p>
+                <p class="c23"><span class="c4">color:blue </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c29"><span class="c4">&lt;/style&gt;</span></p>
+            </td>
+        </tr>
+        <tr class="c151">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">EXTERNO: </span><span class="c4">(recomendable) </span></p>
+                <p class="c5"><span class="c4">Usando un archivo CSS externo </span></p>
+                <p class="c161"><span class="c4">Usar una hoja externa te permite cambiar el estilo de toda &nbsp;una
+                        p&aacute;gina cambiando el archivo de referencia. </span></p>
+                <p class="c128"><span class="c4">Para usar una hoja externa debes poner dentro de las &nbsp;etiquetas
+                        head el link a tu hoja CSS </span></p>
+                <p class="c84"><span class="c4">En la hoja de estilo solo necesitas poner los estilos de los
+                        &nbsp;elementos.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">En tu html: </span></p>
+                <p class="c46"><span class="c4">&lt;head&gt; </span></p>
+                <p class="c126"><span class="c4">&nbsp;&lt;link rel=&quot;stylesheet&quot;
+                        href=&quot;mihojadeestilo.css&quot;&gt; &lt;/head&gt; </span></p>
+                <p class="c158"><span class="c4">En tu hoja de estilo: </span></p>
+                <p class="c162"><span class="c4">body { </span></p>
+                <p class="c15"><span class="c4">&nbsp;background-color: lightblue; </span></p>
+                <p class="c124"><span class="c4">} </span></p>
+                <p class="c17"><span class="c4">h1 { </span></p>
+                <p class="c15"><span class="c4">&nbsp;color: blue; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c17"><span class="c4">p { </span></p>
+                <p class="c15"><span class="c4">&nbsp;color: purple; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c148"><span class="c4">1 </span></p>
+    <p class="c0"><span class="c38">CSS 1 - Material Complementario </span><span class="c4">Prof. Paula Giaimo
+        </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c87"><span class="c83">SINTAXIS de CSS </span></p>
+    <p class="c160"><span class="c4">Los elementos m&aacute;s importantes de CSS son: </span></p>
+    <p class="c112"><span class="c4">&bull; Selectores (elemento al que nos referimos) </span></p>
+    <p class="c112"><span class="c4">&bull; Valor (c&oacute;mo lo queremos modificar) </span></p>
+    <p class="c125"><span class="c38">Estructura</span><span class="c4">: Selector (en este caso un elemento html) {
+            propiedad: valor; propiedad: valor; } llaves de apertura y cierre </span></p>
+    <p class="c82"><span class="c65">p </span><span class="c59">{ </span><span class="c93">color </span><span
+            class="c59">: </span><span class="c37">red</span><span class="c59">; </span><span class="c93">border
+        </span><span class="c59">: </span><span class="c37">1px solid red</span><span class="c59">; } </span></p>
+    <p class="c117"><span class="c59">&nbsp;</span><span class="c132">selector </span></p>
+    <p class="c133"><span class="c132">&nbsp;</span><span class="c20">propiedad </span><span class="c39">valor </span>
+    </p>
+    <p class="c89"><span class="c4">Las diferentes sentencias deben estar separadas por punto y coma. </span></p>
+    <p class="c58"><span class="c4">Ejemplo: &nbsp;</span></p>
+    <p class="c91"><span class="c12">p </span><span class="c40">{ </span></p>
+    <p class="c42"><span class="c40">&nbsp;</span><span class="c6">color</span><span class="c40">: </span><span
+            class="c53">blue</span><span class="c40">; </span></p>
+    <p class="c42"><span class="c40">&nbsp;</span><span class="c6">text-align</span><span class="c40">: </span><span
+            class="c53">center</span><span class="c40">; </span></p>
+    <p class="c79"><span class="c40">}</span><span class="c76">&nbsp;</span></p>
+    <p class="c179"><span class="c4">Tambi&eacute;n puedo </span><span class="c38">AGRUPAR </span><span
+            class="c4">distintos elementos para darles el mismo formato: Ejemplo: &nbsp;</span></p>
+    <p class="c14"><span class="c12">h1, h3, h4 </span><span class="c40">{ </span></p>
+    <p class="c42"><span class="c40">&nbsp;</span><span class="c6">color</span><span class="c40">: </span><span
+            class="c53">green</span><span class="c40">; </span></p>
+    <p class="c175"><span class="c40">&nbsp;</span><span class="c6">text-align</span><span class="c40">: </span><span
+            class="c53">center</span><span class="c40">; </span></p>
+    <p class="c61"><span class="c40">}</span></p>
+    <p class="c34"><span class="c4">2 </span></p>
+    <p class="c0"><span class="c38">CSS 1 - Material Complementario </span><span class="c4">Prof. Paula Giaimo
+        </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c73"><span class="c83">SELECTORES EN CSS: </span></p>
+    <p class="c72"><span class="c4">Los selectores CSS se usan para encontrar o seleccionar los elementos HTML a los que
+            le quieras aplicar estilo. Los m&aacute;s comunes son: </span></p>
+    <p class="c136"><span class="c38">SELECTOR DE ETIQUETA O TIPO </span></p>
+    <p class="c25"><span class="c4">Aplicar&aacute; a todos los elementos de esa etiqueta. </span></p>
+    <p class="c30"><span class="c4">Ejemplo: </span></p>
+    <p class="c193"><span class="c10">p </span><span class="c2">{</span><span class="c16">&nbsp;</span></p>
+    <p class="c104"><span class="c1">text-align</span><span class="c2">: </span><span class="c27">center</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c123"><span class="c1">color</span><span class="c2">: </span><span class="c27">blue</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c101"><span class="c2">}</span><span class="c16">&nbsp;</span></p>
+    <p class="c96"><span class="c4">En este ejemplo todos los elementos p estaran centrados y tendran color azul.
+        </span></p>
+    <p class="c150"><span class="c38">SELECTOR POR ID </span></p>
+    <p class="c178"><span class="c4">Aplicar&aacute; al elemento al que hagamos referencia por id. Debemos escribir # y
+            luego el id del elemento html. Ejemplo: </span></p>
+    <p class="c35"><span class="c10">#parrafo1</span><span class="c2">{</span><span class="c16">&nbsp;</span></p>
+    <p class="c164"><span class="c1">color</span><span class="c2">: </span><span class="c27">green</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c101"><span class="c2">}</span><span class="c16">&nbsp;</span></p>
+    <p class="c81"><span class="c38">SELECTOR DE CLASE </span></p>
+    <p class="c60"><span class="c4">Aplicara a todos los elementos pertenecientes a esa clase. Debemos escribir . y
+            luego el nombre de la clase. Ejemplo: </span></p>
+    <p class="c186"><span class="c10">.centrar</span><span class="c2">{</span><span class="c16">&nbsp;</span></p>
+    <p class="c185"><span class="c1">text-align</span><span class="c2">: </span><span class="c27">center</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c129"><span class="c2">}</span><span class="c16">&nbsp;</span></p>
+    <p class="c187"><span class="c4">Tambien podemos especificar q solo algunos elementos especificos dentro de una
+            clase sean afectados: </span><span class="c10">p.centrar</span><span class="c2">{</span><span
+            class="c16">&nbsp;</span></p>
+    <p class="c122"><span class="c1">color</span><span class="c2">:</span><span class="c27">blueviolet</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c56"><span class="c2">}</span><span class="c16">&nbsp;</span></p>
+    <p class="c81"><span class="c38">SELECTOR UNIVERSAL </span></p>
+    <p class="c55"><span class="c4">Aplicara a todos los elementos de la pagina. </span></p>
+    <p class="c30"><span class="c4">Ejemplo: </span></p>
+    <p class="c145"><span class="c88">* </span><span class="c2">{</span><span class="c16">&nbsp;</span></p>
+    <p class="c94"><span class="c1">text-align</span><span class="c2">: </span><span class="c27">center</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c123"><span class="c1">color</span><span class="c2">: </span><span class="c27">blue</span><span
+            class="c2">;</span><span class="c16">&nbsp;</span></p>
+    <p class="c56"><span class="c2">}</span></p>
+    <p class="c105"><span class="c4">3 </span></p>
+    <p class="c137"><span class="c38">CSS 1 - Material Complementario </span><span class="c4">Prof. Paula Giaimo </span>
+    </p>
+    <p class="c159"><span class="c83">PROPIEDADES EN CSS:</span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c13"><span class="c83"></span></p>
+    <table class="c68">
+        <tr class="c54">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c32"><span class="c38">color</span><span class="c4">: define el color de texto</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c67"><span class="c4">color: purple; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c54">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c77"><span class="c38">font-family</span><span class="c4">: define la fuente.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c70"><span class="c4">font-family: verdana; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c54">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c77"><span class="c38">font-size</span><span class="c4">: define el tama&ntilde;o de
+                        fuente</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c70"><span class="c4">font-size: 200% </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c54">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">border</span><span class="c4">: define el borde alrededor del elemento
+                        html</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c17"><span class="c4">border: 1px solid black; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c134">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">padding</span><span class="c4">: define el espacio entre el texto y el
+                        borde</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c17"><span class="c4">border: 1px solid black; </span></p>
+                <p class="c17"><span class="c4">padding: 30px; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c54">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c64"><span class="c38">margin</span><span class="c4">: define el margen fuera del borde
+                    </span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">p{ </span></p>
+                <p class="c17"><span class="c4">margin:40px; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c194">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c44"><span class="c4">Atributo </span><span class="c38">id</span><span class="c4">: </span>
+                </p>
+                <p class="c177"><span class="c4">Se usa para definir un estilo para un elemento especifico Se hace
+                        referencia al id colocando una almohadilla (</span><span class="c38">#</span><span class="c4">)
+                        &nbsp;antes del nombre del id en la hoja de estilos.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">Ejemplo: </span></p>
+                <p class="c47"><span class="c4">&lt;p id=&rdquo;primerp&rdquo;&gt;Este es mi p&aacute;rrafo id
+                        primerp&lt;/p&gt; En la hoja de estilos lo definimos: </span></p>
+                <p class="c156"><span class="c4">#primerp{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;color: blue; </span></p>
+                <p class="c15"><span class="c4">&nbsp;}</span></p>
+            </td>
+        </tr>
+        <tr class="c166">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c44"><span class="c4">Atributo </span><span class="c38">class</span><span class="c4">: </span>
+                </p>
+                <p class="c155"><span class="c4">Se usa para definir un estilo para varios elementos Se hace referencia
+                        a la clase colocando un punto(</span><span class="c38">.</span><span class="c4">) antes
+                        &nbsp;del nombre en la hoja de estilos.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c106"><span class="c4">&lt;h1 class=miclase&gt; Encabezado de clase mi clase&lt;/h1&gt; &lt;p
+                        class=miclase&gt;Parrafo de clase mi clase&lt;/p&gt; </span></p>
+                <p class="c158"><span class="c4">En la hoja de estilos: </span></p>
+                <p class="c183"><span class="c4">.miclase{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;color: red </span></p>
+                <p class="c15"><span class="c4">&nbsp;}</span></p>
+            </td>
+        </tr>
+        <tr class="c140">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c32"><span class="c4">Selector universal: </span></p>
+                <p class="c182"><span class="c4">Si quiero que un estilo aplique a TODOS los elementos que &nbsp;existen
+                        en mi html, puedo usar un asterisco (*)</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">* { </span></p>
+                <p class="c15"><span class="c4">&nbsp;text-align: center; </span></p>
+                <p class="c15"><span class="c4">&nbsp;color: purple; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c148"><span class="c4">4 </span></p>
+    <p class="c36"><span class="c38">CSS 1 - Material Complementario </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c5"><span class="c4">Prof. Paula Giaimo </span></p>
+    <table class="c68">
+        <tr class="c109">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c153"><span class="c4">COMENTARIOS: </span></p>
+                <p class="c130"><span class="c4">En las hojas de estilo tambi&eacute;n puedo escribir comentarios,
+                        &nbsp;y se recomienda siempre que as&iacute; sea. </span></p>
+                <p class="c174"><span class="c4">Los comentarios, tanto los de una l&iacute;nea como los de
+                        &nbsp;m&uacute;ltiples l&iacute;neas se definen con /* comentario */</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">Ejemplo: </span></p>
+                <p class="c116"><span class="c4">/* comentario de una l&iacute;nea */ </span></p>
+                <p class="c15"><span class="c4">/*comentario </span></p>
+                <p class="c8"><span class="c4">de m&aacute;s de una </span></p>
+                <p class="c17"><span class="c4">l&iacute;nea </span></p>
+                <p class="c17"><span class="c4">*/</span></p>
+            </td>
+        </tr>
+        <tr class="c85">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">Propiedades de BACKGROUND: </span></p>
+                <p class="c103"><span class="c38">background-color: </span></p>
+                <p class="c8"><span class="c4">define el color de fondo </span></p>
+                <p class="c8"><span class="c4">Cada elemento puede tener un color de fondo diferente </span></p>
+                <p class="c121"><span class="c38">background-image: </span></p>
+                <p class="c195"><span class="c4">define una imagen como fondo de un elemento. Por &nbsp;defecto la
+                        imagen se repite para cubrir todo el elemento Si estoy trabajando en una carpeta paralela a
+                        donde tengo &nbsp;la imagen, debo indicar salir de la carpeta usando </span><span
+                        class="c38">../ </span><span class="c4">y &nbsp;luego entrar a la carpeta donde est&aacute; la
+                        imagen: &nbsp;</span><span class="c38">imagenes/nombrearchivo.jpg </span></p>
+                <p class="c102"><span class="c38">background-repeat: </span></p>
+                <p class="c50"><span class="c4">Las imagenes se repiten por defecto tanto vertical como
+                        &nbsp;horizontalmente. Pero podemos elegir que se repita solo &nbsp;de manera vertical con
+                        repeat-y, o de manera horizontal &nbsp;</span></p>
+                <p class="c170"><span class="c4">usando repeat-x. Tambien podemos elegir que no se &nbsp;repita
+                        no-repeat </span></p>
+                <p class="c66"><span class="c38">background-attachment </span></p>
+                <p class="c111"><span class="c4">Se usa para definir si la imagen de fondo podr&aacute;
+                        &nbsp;desplazarse junto con la p&aacute;gina cuando esta se mueva &nbsp;(scroll) o estar&aacute;
+                        fija (fixed) </span></p>
+                <p class="c192"><span class="c38">background-position </span></p>
+                <p class="c86"><span class="c4">se usa para definir la posici&oacute;n que tendr&aacute; la imagen de
+                        &nbsp;fondo</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">Ejemplos: </span></p>
+                <p class="c113"><span class="c21">body { </span></p>
+                <p class="c95"><span class="c21">&nbsp;background-color: lightblue; </span></p>
+                <p class="c176"><span class="c21">} </span></p>
+                <p class="c98"><span class="c21">h1 { </span></p>
+                <p class="c95"><span class="c21">&nbsp;background-color: green; </span></p>
+                <p class="c19"><span class="c21">} </span></p>
+                <p class="c75"><span class="c4">body{ </span></p>
+                <p class="c97"><span class="c4">&nbsp;background-image:url(&quot;../imagenes/descarga.jpg&quot;); }
+                    </span></p>
+                <p class="c180"><span class="c9">body{ </span></p>
+                <p class="c142"><span class="c9">&nbsp;background-image:url(&quot;../imagenes/descarga.jpg&quot;);
+                        &nbsp;background-repeat: repeat-x; </span></p>
+                <p class="c19"><span class="c9">} </span></p>
+                <p class="c63"><span class="c9">body{ </span></p>
+                <p class="c163"><span class="c9">&nbsp;background-image:url(&quot;../imagenes/descarga.jpg&quot;);
+                        &nbsp;background-repeat: no-repeat; </span></p>
+                <p class="c135"><span class="c9">} </span></p>
+                <p class="c191"><span class="c4">background-attachment: fixed; </span></p>
+                <p class="c45"><span class="c9">body{ </span></p>
+                <p class="c165"><span class="c9">&nbsp;background-image:url(&quot;../imagenes/descarga.jpg&quot;);
+                        &nbsp;background-repeat: no-repeat; </span></p>
+                <p class="c62"><span class="c9">&nbsp;background-position: right top; </span></p>
+                <p class="c135"><span class="c9">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c159 c172"><span class="c4">5</span></p>
+    <p class="c36"><span class="c38">CSS 1 - Material Complementario </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c5"><span class="c4">Prof. Paula Giaimo </span></p>
+    <table class="c68">
+        <tr class="c18">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c32"><span class="c38">C&oacute;digo corto: </span></p>
+                <p class="c173"><span class="c4">Tambi&eacute;n se puede definir todas las propiedades del
+                        &nbsp;background en una sola l&iacute;nea de c&oacute;digo. </span></p>
+                <p class="c74"><span class="c4">En este caso el orden de las propiedades debe ser el &nbsp;siguiente:
+                    </span></p>
+                <p class="c147"><span class="c4">background-color </span></p>
+                <p class="c17"><span class="c4">background-image </span></p>
+                <p class="c17"><span class="c4">background-repeat </span></p>
+                <p class="c17"><span class="c4">background-attachment </span></p>
+                <p class="c17"><span class="c4">background-position </span></p>
+                <p class="c5"><span class="c4">No importa si no ponemos valores a todas las &nbsp;</span></p>
+                <p class="c17"><span class="c4">propiedades, siempre y cuando el resto est&eacute; en orden.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c51"><span class="c4">body { </span></p>
+                <p class="c92"><span class="c4">&nbsp;background: blue url(&quot;img_tree.png&quot;) no-repeat right
+                        &nbsp;top; </span></p>
+                <p class="c98"><span class="c4">}</span></p>
+            </td>
+        </tr>
+        <tr class="c154">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c146"><span class="c131">BORDES: </span></p>
+                <p class="c33"><span class="c38">Estilos </span></p>
+                <p class="c108"><span class="c4">La propiedad </span><span class="c38">border-style </span><span
+                        class="c4">permite los siguientes valores: Dotted: Borde punteado </span></p>
+                <p class="c7"><span class="c4">Dashed: Borde con guiones </span></p>
+                <p class="c67"><span class="c4">Solid: borde s&oacute;lido </span></p>
+                <p class="c5"><span class="c4">Double: doble borde </span></p>
+                <p class="c8"><span class="c4">Groove: borde 3D acanalado. &nbsp;</span></p>
+                <p class="c5"><span class="c4">Ridge: borde puntiagudo </span></p>
+                <p class="c5"><span class="c4">Inset: borde incrustado </span></p>
+                <p class="c8"><span class="c4">Outset: borde incrustado </span></p>
+                <p class="c5"><span class="c4">None: sin bordes </span></p>
+                <p class="c5"><span class="c4">Hidden: borde escondido </span></p>
+                <p class="c139"><span class="c4">Mix: se pueden mezclar los estilos de los bordes en el &nbsp;orden
+                        arriba, derecha, abajo, izquierda </span></p>
+                <p class="c22"><span class="c38">Ancho: </span></p>
+                <p class="c184"><span class="c4">La propiedad width se usa para determinar el ancho de &nbsp;borde.
+                        &nbsp;</span></p>
+                <p class="c115"><span class="c4">Se puede utilizar uno de los tres valores predefinidos: thin
+                        &nbsp;(delgado), medium (medio), thick (grueso). </span></p>
+                <p class="c24"><span class="c4">O definir un tama&ntilde;o espec&iacute;fico: (px, cm, em, in, pt) Si
+                        ponemos un solo n&uacute;mero, tomar&aacute; este ancho para los 4 &nbsp;bordes, si ponemos 2
+                        numeros, el primero ser&aacute; para los de &nbsp;arriba y abajo, y el segundo para los de
+                        derecha e &nbsp;izquierda. Si ponemos 4 n&uacute;meros, tomar&aacute; arriba, derecha,
+                        &nbsp;abajo, izquierda.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c43"><span class="c4">Ejemplo: &nbsp;</span></p>
+                <p class="c11"><span class="c4">p </span></p>
+                <p class="c15"><span class="c4">&nbsp;{ &nbsp;</span></p>
+                <p class="c28"><span class="c4">&nbsp;border-style: dotted; </span></p>
+                <p class="c15"><span class="c4">&nbsp;} </span></p>
+                <p class="c189"><span class="c4">p { &nbsp;</span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 2px; </span></p>
+                <p class="c15"><span class="c4">&nbsp;} </span></p>
+                <p class="c11"><span class="c4">p{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px 10px; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c149"><span class="c4">p{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px 10px 2px 20px; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c159 c181"><span class="c4">6</span></p>
+    <p class="c36"><span class="c38">CSS 1 - Material Complementario </span><span
+            style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 124.63px; height: 98.20px;"><img
+                alt="" src="images/image1.png"
+                style="width: 124.63px; height: 98.20px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                title=""></span></p>
+    <p class="c5"><span class="c4">Prof. Paula Giaimo </span></p>
+    <table class="c68">
+        <tr class="c144">
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c32"><span class="c38">Color: </span></p>
+                <p class="c138"><span class="c4">La propiedad border-color se usa para ponerle color a los &nbsp;bordes.
+                        &nbsp;</span></p>
+                <p class="c7"><span class="c4">El color se puede nombrar de varias maneras: </span></p>
+                <p class="c5"><span class="c4">Por su nombre: blue; </span></p>
+                <p class="c70"><span class="c4">Valor RGB: &nbsp;</span></p>
+                <p class="c48"><span class="c4">Se debe decir el numero de rojo, verde y azul (entre 0 y &nbsp;255)
+                    </span></p>
+                <p class="c156"><span class="c4">Valor HEX: &nbsp;</span></p>
+                <p class="c190"><span class="c4">Igual que RGB pero en valor hexadesimal (entre 00 y ff) Valor HSL (hue,
+                        saturation, lightness) </span></p>
+                <p class="c157"><span class="c4">Hue es un valor entre 0 y 360 que define el color Saturation el
+                        porcentaje de saturacion </span></p>
+                <p class="c7"><span class="c4">Lightness el porcentaje de luz </span></p>
+                <p class="c152"><span class="c4">Transparencia: </span></p>
+                <p class="c52"><span class="c4">Igual que el anterior, pero se agrega el grado de &nbsp;transparencia
+                        que se quiere dar al color como cuarto &nbsp;par&aacute;metro, donde 0 es totalmente
+                        transparente y 1 nada &nbsp;transparente. </span></p>
+                <p class="c49"><span class="c4">En el ejemplo de la derecha se muestran 5 maneras de &nbsp;definir un
+                        color, la &uacute;nica que nos dar&aacute; un resultado &nbsp;diferente es la quinta (que tiene
+                        transparencia) </span></p>
+                <p class="c158"><span class="c4">Para mas info sobre colores ver &nbsp;</span></p>
+                <p class="c17"><span class="c118">https://www.w3schools.com/css/css_colors.asp</span><span
+                        class="c169">&nbsp;</span></p>
+                <p class="c141"><span class="c38">C&oacute;digo corto: </span></p>
+                <p class="c31"><span class="c4">Tambi&eacute;n se pueden definir las propiedades de los bordes &nbsp;en
+                        una sola l&iacute;nea de c&oacute;digo. </span></p>
+                <p class="c78"><span class="c4">La propiedad border puede definir el tama&ntilde;o, estilo y &nbsp;color
+                        en una sola l&iacute;nea </span></p>
+                <p class="c66"><span class="c38">Bordes redondeados: </span></p>
+                <p class="c167"><span class="c4">Para obtener bordes redondeados podemos usar la &nbsp;propiedad
+                        border-radius. </span></p>
+                <p class="c66"><span class="c38">Bordes unidos: </span></p>
+                <p class="c90"><span class="c4">Para mantener los bordes separados o unirlos podemos &nbsp;usar la
+                        propiedad border-collapse. Sus valores pueden ser &nbsp;separate o collapse.</span></p>
+            </td>
+            <td class="c3" colspan="1" rowspan="1">
+                <p class="c44"><span class="c4">#primero{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-color:blue; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c57"><span class="c4">#segundo{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px ; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-color: rgb(0,0,255); </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c57"><span class="c4">#tercero{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px ; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-color: #0000ff; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c57"><span class="c4">#cuarto{ </span></p>
+                <p class="c28"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px ; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-color: hsl(240, 100%, 50%); </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c70"><span class="c4">#quinto{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-style: solid; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-width: 5px ; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-color: hsla(240, 100%, 50%, 0.2); </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c114"><span class="c4">#primero{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border: 5px solid blue; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c114"><span class="c4">#primero{ </span></p>
+                <p class="c28"><span class="c4">&nbsp;border: 5px solid blue; </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-radius: 15px; </span></p>
+                <p class="c26"><span class="c4">} </span></p>
+                <p class="c80"><span class="c4">#mitabla{ </span></p>
+                <p class="c15"><span class="c4">&nbsp;border-collapse: collapse; </span></p>
+                <p class="c26"><span class="c4">}</span></p>
+            </td>
+        </tr>
+    </table>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c13"><span class="c69"></span></p>
+    <p class="c159 c171"><span class="c4">7</span></p>
+</body>
+
+
+
+        <footer>
+            <p>© 2025 InstiEducación</p>
+        </footer>
+</body>
+
+</html>
 
 <body>
     <header>
